@@ -1,12 +1,13 @@
-.main_menu {
+.main-menu {
     height: 7%;
     background-color: black;
     text-align: center;
 }
 
-.menu_item {
+.menu-item {
     margin-left: 2%;
     margin-right: 2%;
+    padding-top: 10%;
     font-size: 150%;
     color: white;
     font-family: Helvetica;
@@ -15,4 +16,18 @@
 .menu_item:hover {
     color: #D2B48C;
     cursor: pointer;
+}
+
+.header-image {
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    font-size: 600%;
+    color: white;
+    font-family: Helvetica;
+    left: 40%;
+    bottom: 50%;
+    text-shadow: 4px 4px 15px black;
 }
