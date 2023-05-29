@@ -26,3 +26,37 @@
     position: absolute;
     bottom:50%;
 }
+
+.main-table {
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 3%;
+    height: 50%;
+}
+
+.top-row {
+    width:100%;
+    clear:both;
+}
+
+.h1-text {
+    margin-bottom: 1%;
+    font-size: 250%;
+    font-family: Helvetica;
+}
+
+.left-col {
+    width:50%;
+    float:left;
+}
+
+.content-text {
+    font-family: Helvetica;
+    margin-right: 2%;
+    font-size: 160%;
+}
+
+.right-col {
+    width:48%;
+    float:right;
+}
