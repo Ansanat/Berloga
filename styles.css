@@ -110,13 +110,14 @@
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }
 
 /* --------Gallery---------------------- */
 
 .gallery {
-    --size: min(60vmin, 400px);
+    --size: min(150vmin, 400px);
     box-shadow: 
       0 0 10px #0002,
       0 20px 40px -20px #0004;
