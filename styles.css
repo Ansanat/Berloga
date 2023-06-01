@@ -4,6 +4,16 @@
     background-color: #121820;
 }
 
+.mobile-menu {
+  cursor: pointer;
+  display: none;
+  margin-top: 2%;
+  width: 10%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .menu-list {
     text-align: center;
     list-style: none;
@@ -68,6 +78,12 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .main-menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
   .menu-item {
       display: block;
       font-size: 2em;
