@@ -44,6 +44,14 @@
     transform: translate(-50%, -50%)
 }
 
+.cancel-icon {
+  left: 85%;
+  float: right;
+  width: 10%;
+  cursor: pointer;
+  display: none;
+}
+
 .main-table {
     margin-top: 3%;
     margin-left: 4%;
@@ -269,6 +277,9 @@
   .gallery {
     width: 90%;
     height: 40%;
+  }
+  .cancel-icon {
+    display: block;
   }
 }
 
