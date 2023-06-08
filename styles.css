@@ -45,9 +45,11 @@
 }
 
 .cancel-icon {
-  left: 85%;
-  float: right;
-  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  width: 20%;
+  height: 7%;
   cursor: pointer;
   display: none;
 }
