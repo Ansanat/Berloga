@@ -1,3 +1,35 @@
+<<<<<<< HEAD
+=======
+.header {
+  height: 8%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.header-logo {
+  height: 100%;
+}
+
+.header-image {
+  position: relative;
+}
+
+.header-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 6em;
+  font-family: Helvetica;
+  text-shadow: 5px 5px 7px black;
+}
+
+>>>>>>> fa7c32c (hz)
 .main-menu {
     display: block;
     padding-top: 1%;
