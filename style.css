@@ -1,0 +1,31 @@
+
+/* Главное меню */
+.main-menu {
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #121820;
+}
+.menu-list {
+    text-align: center;
+    list-style: none;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 1.2em;
+    color: white;
+    font-family: Helvetica;
+}
+
+.menu-item:hover {
+    color: #D2B48C;
+    cursor: pointer;
+}
+/* ------------ */
+
+@media screen and (max-width: 1024px) {
+    
+}
