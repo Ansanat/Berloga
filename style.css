@@ -62,10 +62,11 @@
 }
 /* ------------ */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     /* Главный экран */
     .main-background {
         aspect-ratio: 9/16;
+        object-fit: cover;
     }
     /* ------------ */
 }
