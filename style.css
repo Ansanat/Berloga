@@ -1,3 +1,14 @@
+/* Header */
+.header {
+    position: relative;
+}
+.berloga-logo {
+    width: 300px;
+}
+.telegram-logo {
+    width: 55px;
+}
+/* ------- */
 
 /* Главное меню */
 .main-menu {
@@ -10,7 +21,6 @@
     text-align: center;
     list-style: none;
 }
-
 .menu-item {
     display: inline-block;
     margin-left: 1%;
@@ -19,7 +29,6 @@
     color: white;
     font-family: Helvetica;
 }
-
 .menu-item:hover {
     color: #D2B48C;
     cursor: pointer;
