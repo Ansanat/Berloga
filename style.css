@@ -14,6 +14,9 @@
     position: relative;
     text-align: center;
 }
+.main-background {
+    width: 100%;
+}
 .main-text {
     font-family: Helvetica;
     color:white;
@@ -60,5 +63,9 @@
 /* ------------ */
 
 @media screen and (max-width: 1024px) {
-    
+    /* Главный экран */
+    .main-background {
+        height: 100%;
+    }
+    /* ------------ */
 }
