@@ -3,12 +3,36 @@
     position: relative;
 }
 .berloga-logo {
-    width: 300px;
+    width: 200px;
 }
 .telegram-logo {
-    width: 55px;
+    width: 40px;
 }
 /* ------- */
+/* Главный экран */
+.main {
+    position: relative;
+    text-align: center;
+}
+.main-text {
+    font-family: Helvetica;
+    color:white;
+    position: absolute;
+    font-size: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 10px black;
+}
+.main-address {
+    margin-top: 1px;
+    font-size: 30px;
+}
+.main-telephone {
+    margin-top: 1px;
+    font-size: 30px;
+}
+/* ------------- */
 
 /* Главное меню */
 .main-menu {
