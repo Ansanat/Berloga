@@ -86,9 +86,15 @@
     height: 60px;
 }
 /* ------ */
-@media screen and (max-width: 800px) {
-    /* Главный экран */
-    .main-background {
+@media (max-width: 800px) {
+    /* Content */
+    .zagolovok{
+        font-size: 50px;
     }
-    /* ------------ */
+    .col-item {
+        display: flex;
+        font-size: 30px;
+        width: 90%;
+    }
+    /* ------- */
 }
