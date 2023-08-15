@@ -23,8 +23,8 @@
         <!-- Главное меню -->
         <nav class="main-menu">
             <ul class="menu-list">
-                <li class="menu-item">Общественная баня</li>
-                <li class="menu-item">Семейный номер</li>
+                <li class="menu-item" onclick="banya()">Общественная баня</li>
+                <li class="menu-item" onclick="familyNumber()">Семейный номер</li>
                 <li class="menu-item">Меню</li>
                 <li class="menu-item">Цены</li>
                 <li class="menu-item">Режим работы</li>
@@ -37,7 +37,7 @@
         <!-- ------------- -->
         <!-- Content -->
         <fieldset style="margin-top: 10px;">
-        <legend class="zagolovok">Общественная баня</legend>
+        <legend class="zagolovok" id="zagolovok">Общественная баня</legend>
             <div class="col">
                 <div class="col-item">
                     <ul>
@@ -50,7 +50,7 @@
                     </ul>
                 </div>
                 <div class="col-item" style="margin-left: 20px;">
-                    <img src="images/banya/Image1.jpg" width="100%" onload="gallery(13,'images/banya/Image')" id="gallery"></img>
+                    <img src="images/banya/Image1.jpg" width="100%" onload="gallery(11, 'gallery')" id="gallery"></img>
                 </div>
             </div>
         </fieldset>
