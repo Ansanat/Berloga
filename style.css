@@ -62,20 +62,34 @@
 }
 /* ------------ */
 /* Content */
+.gallery{
+    aspect-ratio: 16 / 4;
+    object-fit: cover;
+}
+.text-container {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .zagolovok{
+    margin-top: 0;
+    margin-left: 40px;
     font-family: Helvetica;
     font-size: 30px;
+    display:inline-block; 
+    text-align: center;
 }
-.col{
-    white-space: nowrap;
-}
-.col-item{
+.cursiv-text{
+    width: 25%;
+    font-size: 15px;
+    font-style: italic;
     font-family: Helvetica;
-    white-space: normal;	
-	display: inline-block;
-    font-size: 20px;
-	width: 48%;
-    vertical-align: top;
+    display: inline-block;
+    margin-left: 40px;
+}
+.spisok{
+    font-family: Helvetica;
 }
 /* ------- */
 /* footer */
