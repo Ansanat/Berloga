@@ -27,7 +27,12 @@ function familyNumber() {
     gallery_id = 'family';
     i_gallery = 1;
     document.getElementById('zagolovok').textContent = 'Семейный номер';
-    document.getElementById('helpText').textContent = 'Семейный номер — большой просторный номер в котором могут комфортно расположиться двенадцать человек.';
+    document.getElementById('helpText').textContent = 'Семейный номер — большой просторный номер в котором могут комфортно расположиться двенадцать человек. Номер площадью 150 м. кв. включает в себя:';
+    document.getElementById('helpUl1').textContent = '- Контрастный бассейн размерами 3х3 метра';
+    document.getElementById('helpUl2').textContent = '- Парную на 12 человек';
+    document.getElementById('helpUl3').textContent = '- Моечное отделение с двумя душевыми';
+    document.getElementById('helpUl4').textContent = '- Зону для застолья';
+    document.getElementById('helpUl5').textContent = '- Зону караоке';
     resetSelect();
     document.getElementById('familyItem').style.color = '#D2B48C';
 }
@@ -37,6 +42,11 @@ function banya() {
     i_gallery = 1;
     document.getElementById('zagolovok').textContent = 'Общественная баня';
     document.getElementById('helpText').textContent = 'Общее отделение банного комплекса Берлога рассчитано на одновременное посещение пятидесяти человек. Каждому клиенту предоставляется отдельный шкафчик с электронным замком, номер на шкафчике соответствует посадочному месту.';
+    document.getElementById('helpUl1').textContent = '- Бассейн 3х6 метров с температурой 28 градусов';
+    document.getElementById('helpUl2').textContent = '- Русская парная на 20 человек';
+    document.getElementById('helpUl3').textContent = '- Турецкий хамам на 10 человек';
+    document.getElementById('helpUl4').textContent = '- Купель с температурой воды 12 градусов';
+    document.getElementById('helpUl5').textContent = '- Работает кухня';
     resetSelect();
     document.getElementById('banyaItem').style.color = '#D2B48C';
 }
