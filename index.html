@@ -23,8 +23,8 @@
         <!-- Главное меню -->
         <nav class="main-menu">
             <ul class="menu-list">
-                <li class="menu-item" onclick="banya()">Общественная баня</li>
-                <li class="menu-item" onclick="familyNumber()">Семейный номер</li>
+                <li class="menu-item" onclick="banya()" id="banyaItem">Общественная баня</li>
+                <li class="menu-item" onclick="familyNumber()" id="familyItem">Семейный номер</li>
                 <li class="menu-item">Меню</li>
                 <li class="menu-item">Цены</li>
                 <li class="menu-item">Режим работы</li>
@@ -42,8 +42,8 @@
             <img class="gallery" src="images/banya/Image1.jpg" width="100%" onload="gallery(11, 'gallery')" id="gallery"></img>
         </div>
         <div class="text-container">
-            <img src="images/banya/test2.png" width="100px"></img>
-            <div class="zagolovok" id="zagolovok">Общественная <br> баня</div>
+            <img src="images/banya/banyaLogo.png" width="100px"></img>
+            <div class="zagolovok" id="zagolovok">Общественная баня</div>
             <div class="cursiv-text">Банный комплекс <b>"Берлога"</b> – современная общественная баня, место где можно расслабиться, восстановить свое физическое и психоэмоциональное состояние.</div>
         </div>
         <ul class="spisok">
@@ -57,9 +57,43 @@
         <!-- ------------------------------- -->
 
         <!-- Цены -->
-        <fieldset style="margin-top: 10px;">
-            <legend class="zagolovok">Цены</legend>
-        </fieldset>
+        <div class="price">
+            <div class="price-zag">Цены</div>
+            <div class="price-list">
+                <div>
+                    <span class="days">Вторник, среда (2 часа)</span>
+                    <span class="priceRub">400 руб.</span>
+                    <span class="days" style="margin-left: 30px;">Вторник, среда (2 часа)</span>
+                    <span class="priceRub">700 руб.</span>
+                    <div class="time">
+                        <span>c 11:00 до 16:00</span>
+                        <span style="margin-left: 205px;">c 16:00 до 23:00</span>
+                    </div>
+                </div>
+
+                <div style="margin-top:10px">
+                    <span class="days">Четверг, пятница (2 часа)</span>
+                    <span class="priceRub">400 руб.</span>
+                    <span class="days" style="margin-left: 30px;">Четверг, пятница (2 часа)</span>
+                    <span class="priceRub">800 руб.</span>
+                    <div class="time">
+                        <span>c 11:00 до 16:00</span>
+                        <span style="margin-left: 205px;">c 16:00 до 23:00</span>
+                    </div>
+                </div>
+
+                <div style="margin-top:10px">
+                    <span class="days">Суббота, воскресенье (2 часа)</span>
+                    <span class="priceRub">800 руб.</span>
+                    <span class="days" style="margin-left: 30px;">Суббота, воскресенье (2 часа)</span>
+                    <span class="priceRub">1000 руб.</span>
+                    <div class="time">
+                        <span>c 11:00 до 16:00</span>
+                        <span style="margin-left: 205px;">c 16:00 до 23:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- ---- -->
         <!-- ------- -->
         <!-- footer -->

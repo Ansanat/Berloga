@@ -18,13 +18,25 @@ function gallery(imgCount, id) {
     }, 3000);
 }
 
+function resetSelect() {
+    document.getElementById('banyaItem').style.color = 'white';
+    document.getElementById('familyItem').style.color = 'white';
+}
+
 function familyNumber() {
     gallery_id = 'family';
     i_gallery = 1;
     document.getElementById('zagolovok').textContent = 'Семейный номер';
+    resetSelect();
+    document.getElementById('familyItem').style.color = '#D2B48C';
 }
+
 function banya() {
     gallery_id = 'banya';
     i_gallery = 1;
-    document.getElementById('zagolovok').textContent = 'Общественная баня';
+    document.getElementById('zagolovok').textContent = 'Общественная' + '\n' + 'баня';
+    resetSelect();
+    document.getElementById('banyaItem').style.color = '#D2B48C';
 }
+
+

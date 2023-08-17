@@ -89,7 +89,54 @@
     margin-left: 40px;
 }
 .spisok{
+    margin-top: 40px;
     font-family: Helvetica;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.price {
+    position: relative;
+    margin-top: 40px;
+    background-color: #121820;
+    width: 100%;
+    height: 300px;
+}
+
+.price-zag {
+    margin-top: 15px;
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 40px;
+    color: #D2B48C;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.price-list {
+    font-family: Helvetica;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.days {
+    color:white;
+    font-weight: bold;
+}
+
+.priceRub {
+    margin-left: 30px;
+    color: #D2B48C;
+    font-weight: bold;
+}
+
+.time {
+    margin-top: 5px;
+    font-style: italic;
+    color:white;
+    font-size: 15px;
 }
 /* ------- */
 /* footer */
@@ -100,15 +147,14 @@
     height: 60px;
 }
 /* ------ */
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     /* Content */
     .zagolovok{
         font-size: 50px;
     }
-    .col-item {
-        display: flex;
-        font-size: 30px;
-        width: 90%;
+    .cursiv-text{
+        display: none;    
     }
+
     /* ------- */
 }
