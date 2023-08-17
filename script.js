@@ -27,6 +27,7 @@ function familyNumber() {
     gallery_id = 'family';
     i_gallery = 1;
     document.getElementById('zagolovok').textContent = 'Семейный номер';
+    document.getElementById('helpText').textContent = 'Семейный номер — большой просторный номер в котором могут комфортно расположиться двенадцать человек.';
     resetSelect();
     document.getElementById('familyItem').style.color = '#D2B48C';
 }
@@ -34,7 +35,8 @@ function familyNumber() {
 function banya() {
     gallery_id = 'banya';
     i_gallery = 1;
-    document.getElementById('zagolovok').textContent = 'Общественная' + '\n' + 'баня';
+    document.getElementById('zagolovok').textContent = 'Общественная баня';
+    document.getElementById('helpText').textContent = 'Общее отделение банного комплекса Берлога рассчитано на одновременное посещение пятидесяти человек. Каждому клиенту предоставляется отдельный шкафчик с электронным замком, номер на шкафчике соответствует посадочному месту.';
     resetSelect();
     document.getElementById('banyaItem').style.color = '#D2B48C';
 }
