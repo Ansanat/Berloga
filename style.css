@@ -164,10 +164,22 @@
     font-size: 20px;
 }
 
+.dop{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+
 .time {
     font-style: italic;
     color:white;
     font-size: 17px;
+}
+
+.present{
+    width: 50px;
+    /* height: 20px; */
 }
 /* ------- */
 /* footer */
