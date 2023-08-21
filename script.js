@@ -35,6 +35,9 @@ function familyNumber() {
     document.getElementById('helpUl5').textContent = '- Зону караоке';
     resetSelect();
     document.getElementById('familyItem').style.color = '#D2B48C';
+    document.getElementById('banyaPrice').style.display = 'none';
+    document.getElementById('familyPrice').style.display = 'block';
+    document.getElementById('discounts').style.display = 'block';
 }
 
 function banya() {
@@ -49,6 +52,9 @@ function banya() {
     document.getElementById('helpUl5').textContent = '- Работает кухня';
     resetSelect();
     document.getElementById('banyaItem').style.color = '#D2B48C';
+    document.getElementById('banyaPrice').style.display = 'block';
+    document.getElementById('familyPrice').style.display = 'none';
+    document.getElementById('discounts').style.display = 'none';
 }
 
 
