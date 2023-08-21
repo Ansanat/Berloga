@@ -178,8 +178,13 @@
 }
 
 .present{
-    width: 50px;
-    /* height: 20px; */
+    width: 40px;
+}
+
+.akcii{
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
 }
 /* ------- */
 /* footer */
