@@ -122,7 +122,7 @@
     margin-top: 15px;
     position: absolute;
     font-family: Helvetica;
-    font-size: 40px;
+    font-size: 50px;
     color: #D2B48C;
     left: 50%;
     transform: translate(-50%, 0);
@@ -131,10 +131,10 @@
 .price-list {
     font-family: Helvetica;
     position: absolute;
-    width: 600px;
+    width: 800px;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
 }
 
 .price-left{
@@ -147,22 +147,27 @@
     width: 47%;
 }
 
+.price-block{
+    margin-top: 7px;
+}
+
 .days {
     color:white;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .priceRub {
     float: right;
     color: #D2B48C;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .time {
-    /* margin-top: 5px; */
     font-style: italic;
     color:white;
-    font-size: 15px;
+    font-size: 17px;
 }
 /* ------- */
 /* footer */
