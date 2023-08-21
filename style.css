@@ -131,9 +131,20 @@
 .price-list {
     font-family: Helvetica;
     position: absolute;
+    width: 600px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.price-left{
+    float: left;
+    width: 47%;
+}
+
+.price-right{
+    float: right;
+    width: 47%;
 }
 
 .days {
@@ -142,13 +153,13 @@
 }
 
 .priceRub {
-    margin-left: 30px;
+    float: right;
     color: #D2B48C;
     font-weight: bold;
 }
 
 .time {
-    margin-top: 5px;
+    /* margin-top: 5px; */
     font-style: italic;
     color:white;
     font-size: 15px;
