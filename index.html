@@ -26,7 +26,6 @@
                 <li class="menu-item" onclick="banya()" id="banyaItem" style="color:#D2B48C">Общественная баня</li>
                 <li class="menu-item" onclick="familyNumber()" id="familyItem">Семейный номер</li>
                 <li class="menu-item">Меню</li>
-                <li class="menu-item">Режим работы</li>
                 <li class="menu-item">Правила посещения</li>
                 <li class="menu-item">Контакты</li>
                 <li class="menu-item">Вакансии</li>
@@ -45,13 +44,25 @@
             <div class="zagolovok" id="zagolovok">Общественная баня</div>
             <div class="cursiv-text">Банный комплекс <b>"Берлога"</b> – современная общественная баня, место где можно расслабиться, восстановить свое физическое и психоэмоциональное состояние.</div>
         </div>
-        <div class="help-background">
+        <div class="help-background" id="helpBlock">
             <div class="help" style="padding-top: 20px;" id="helpText">Общее отделение банного комплекса Берлога рассчитано на одновременное посещение пятидесяти человек. Каждому клиенту предоставляется отдельный шкафчик с электронным замком, номер на шкафчике соответствует посадочному месту.</div>
             <div class="help" style="padding-top: 20px;" id="helpUl1">- Бассейн 3х6 метров с температурой 28 градусов</div>
             <div class="help" id="helpUl2">- Русская парная на 20 человек</div>
             <div class="help" id="helpUl3">- Турецкий хамам на 10 человек</div>
             <div class="help" id="helpUl4">- Купель с температурой воды 12 градусов</div>
             <div class="help" id="helpUl5">- Работает кухня</div>
+            <div id="banyaWorkMode" style="display: block;">
+                <div class="help" style="padding-top: 20px; font-weight: bold; text-align: center; font-style: normal;"> Режим работы</div>
+                <div class="help" style="padding-top: 20px;"> Мужское время:</div>
+                <div class="help" style="padding-left: 40px;">Вторник, среда, четверг, суббота, воскресенье - с <b>11:00</b> до <b>23:00</b></div>
+                <div class="help" style="padding-left: 40px;">Пятница - с <b>17:00</b> до <b>23:00</b></div>
+                <div class="help" style="padding-top: 20px;"> Женское время:</div>
+                <div class="help" style="padding-left: 40px;">Среда - с <b>11:00</b> до <b>23:00</b></div>
+                <div class="help" style="padding-left: 40px;">Пятница - с <b>11:00</b> до <b>16:00</b></div>
+            </div>
+            <div id="familyWorkMode" style="display: none;">
+                <div class="help" style="padding-top: 20px; font-weight: bold;">Режим работы круглосуточный</div>
+            </div>
         </div>
 
         <!-- Цены -->

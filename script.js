@@ -38,6 +38,9 @@ function familyNumber() {
     document.getElementById('banyaPrice').style.display = 'none';
     document.getElementById('familyPrice').style.display = 'block';
     document.getElementById('discounts').style.display = 'block';
+    document.getElementById('familyWorkMode').style.display = 'block';
+    document.getElementById('banyaWorkMode').style.display = 'none';
+    document.getElementById('helpBlock').style.height = '300px';
 }
 
 function banya() {
@@ -55,6 +58,9 @@ function banya() {
     document.getElementById('banyaPrice').style.display = 'block';
     document.getElementById('familyPrice').style.display = 'none';
     document.getElementById('discounts').style.display = 'none';
+    document.getElementById('familyWorkMode').style.display = 'none';
+    document.getElementById('banyaWorkMode').style.display = 'block';
+    document.getElementById('helpBlock').style.height = '500px';
 }
 
 
