@@ -190,9 +190,11 @@
 }
 
 .cities-background{
-    background-color: white;
-    height: 100px;
+    background-image: ;
+    object-fit: cover;
+    height: 200px;
     position: relative;
+    background-image: url(images/nsk_fon.JPG);
 }
 
 .cities {
@@ -212,14 +214,15 @@
     vertical-align: middle;
     line-height: 60px;
     display: inline-block;
-    background-color: white;
+    background-color: rgb(222, 222, 222);
+    /* text-shadow: 3px 3px 3px black; */
     border-color: #121820;
     border-style: solid;
     height: 60px;
     width: 200px;
     font-size: 20px;
     font-family: Helvetica;
-    color:#121820;
+    color: #121820;
     font-weight: bold;
     font-style: italic;
 }
@@ -231,7 +234,6 @@
 /* footer */
 .footer {
     background-color: #121820;
-    margin-top: 10px;
     width: 100%;
     height: 60px;
 }
