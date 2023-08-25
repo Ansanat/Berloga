@@ -188,6 +188,30 @@
     position: relative;
     top: -13px;
 }
+
+.cities-background{
+    background-color: white;
+    height: 200px;
+    position: relative;
+}
+
+.cities {
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.city{
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border-color: #D2B48C;
+    height: 70px;
+    width: 100px;
+}
 /* ------- */
 /* footer */
 .footer {
