@@ -191,26 +191,41 @@
 
 .cities-background{
     background-color: white;
-    height: 200px;
+    height: 100px;
     position: relative;
 }
 
 .cities {
     position: absolute;
-    width: 350px;
-    height: 100px;
+    width: 700px;
+    height: 60px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%); 
 }
 
 .city{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
     text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
     display: inline-block;
     background-color: white;
-    border-color: #D2B48C;
-    height: 70px;
-    width: 100px;
+    border-color: #121820;
+    border-style: solid;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color:#121820;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.city:hover{
+    background-color: #D2B48C;
 }
 /* ------- */
 /* footer */
