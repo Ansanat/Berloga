@@ -186,11 +186,9 @@
     font-weight: bold;
     font-size: 17px;
     position: relative;
-    top: -13px;
 }
 
 .cities-background{
-    background-image: ;
     object-fit: cover;
     height: 200px;
     position: relative;
@@ -215,7 +213,6 @@
     line-height: 60px;
     display: inline-block;
     background-color: rgb(222, 222, 222);
-    /* text-shadow: 3px 3px 3px black; */
     border-color: #121820;
     border-style: solid;
     height: 60px;
@@ -264,14 +261,33 @@
     color:#D2B48C;
 }
 /* ------ */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
+    /* Главный экран */
+    .main-background{
+        aspect-ratio: 9 / 16;
+        object-fit: cover;
+    }
+    .menu-item {
+        display: block;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    /* ---------- */
     /* Content */
+    .gallery{
+        aspect-ratio: 3 / 3;
+        object-fit: cover;
+    }
     .zagolovok{
-        font-size: 50px;
+        margin-left: 2px;
+        font-size: 30px;
     }
     .cursiv-text{
-        display: none;    
+        display: none;
     }
-
+    .city{
+        display: block;
+        margin-top: 10px;
+    }
     /* ------- */
 }
