@@ -60,7 +60,7 @@ function banya() {
     document.getElementById('discounts').style.display = 'none';
     document.getElementById('familyWorkMode').style.display = 'none';
     document.getElementById('banyaWorkMode').style.display = 'block';
-    document.getElementById('helpBlock').style.height = '500px';
+    document.getElementById('helpBlock').style.height = '550px';
 }
 
 
