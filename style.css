@@ -295,4 +295,15 @@
         width: 90%;
     }
     /* ------- */
+    .cities-background{
+        height: 300px;
+    }
+    .cities {
+        position: absolute;
+        width: 300px;
+        height: 110px;
+        left: 60%;
+        top: 30%;
+        transform: translate(-50%, -50%); 
+    }
 }
