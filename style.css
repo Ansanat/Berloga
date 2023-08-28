@@ -91,7 +91,7 @@
 
 .help-background{
     background-color: #f5f8fc;
-    height: 500px;
+    height: 550px;
     margin-top: 60px;
 }
 
@@ -289,6 +289,9 @@
     .city{
         display: block;
         margin-top: 10px;
+    }
+    .help{
+        width: 90%;
     }
     /* ------- */
 }
