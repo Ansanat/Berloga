@@ -297,6 +297,20 @@
     .help{
         width: 90%;
     }
+    .price {
+        height: 500px;
+    }
+    .price-list{
+        width: 350px;
+    }
+    .price-left{
+        float: none;
+        width: 350px;
+    }
+    .price-right{
+        float: none;
+        width: 350px;
+    }
     /* ------- */
     .cities-background{
         height: 300px;
