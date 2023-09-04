@@ -24,8 +24,8 @@
         <!-- Главное меню -->
         <nav class="main-menu">
             <ul class="menu-list">
-                <li class="menu-item" style="color:#D2B48C">Общественная баня</li>
-                <a href="familyNumber.html"><li class="menu-item">Семейный номер</li></a>
+                <a href="index.html"> <li class="menu-item">Общественная баня</li> </a>
+                <li class="menu-item" style="color:#D2B48C">Семейный номер</li>
                 <a href="menu.html"> <li class="menu-item">Меню</li></a>
                 <li class="menu-item">Правила посещения</li>
                 <li class="menu-item">Контакты</li>
@@ -36,17 +36,17 @@
         <!-- ------------- -->
         <!-- Content -->
 
-        <!-- Общественная баня-->
+        <!-- Общественная баня и семейный номер -->
         <div>
-            <img class="gallery" src="images/banya/Image1.jpg" width="100%" onload="gallery(11, 'gallery', 'banya')" id="gallery"></img>
+            <img class="gallery" src="images/family/Image1.jpg" width="100%" onload="gallery(11, 'gallery', 'family')" id="gallery"></img>
         </div>
         <div class="text-container">
             <img src="images/banya/banyaLogo.png" width="100px"></img>
-            <div class="zagolovok" id="zagolovok">Общественная баня</div>
+            <div class="zagolovok" id="zagolovok">Семейный номер</div>
             <div class="cursiv-text">Банный комплекс <b>"Берлога"</b> – современная общественная баня, место где можно расслабиться, восстановить свое физическое и психоэмоциональное состояние.</div>
         </div>
         <div class="help-background" id="helpBlock">
-            <div class="help" style="padding-top: 20px;" id="helpText">Общее отделение банного комплекса Берлога рассчитано на одновременное посещение пятидесяти человек. Каждому клиенту предоставляется отдельный шкафчик с электронным замком, номер на шкафчике соответствует посадочному месту.</div>
+            <div class="help" style="padding-top: 20px;">Семейный номер — большой просторный номер в котором могут комфортно расположиться двенадцать человек. Номер площадью 150 м. кв. включает в себя:</div>
             <div class="help" style="padding-top: 20px;" id="helpUl1">- Бассейн 3х6 метров с температурой 28 градусов</div>
             <div class="help" id="helpUl2">- Русская парная на 20 человек</div>
             <div class="help" id="helpUl3">- Турецкий хамам на 10 человек</div>
@@ -60,6 +60,9 @@
                 <div class="help" style="padding-top: 20px;"> Женское время:</div>
                 <div class="help" style="padding-left: 40px;">Среда - с <b>11:00</b> до <b>23:00</b></div>
                 <div class="help" style="padding-left: 40px;">Пятница - с <b>11:00</b> до <b>16:00</b></div>
+            </div>
+            <div id="familyWorkMode" style="display: none;">
+                <div class="help" style="padding-top: 20px; font-weight: bold;">Режим работы круглосуточный</div>
             </div>
         </div>
 
@@ -104,6 +107,62 @@
                     </div>
                 </div>
             </div>
+            <div class="price" id="familyPrice" style="display: none;">
+                <div class="price-zag">Цены</div>
+                <div class="price-list">
+                    <div class="price-left">
+                        <div>
+                            <span class="days">Понедельник-четверг</span>
+                            <span class="priceRub">1000 руб./час</span>
+                        </div>
+                        <div class="time">с 09-00 до 18-00</div>
+                        <div class="price-block">
+                            <span class="days">Пятница</span>
+                            <span class="priceRub">1400 руб./час</span>
+                        </div>
+                        <div class="time">с 09-00 до 18-00</div>
+                        <div class="price-block">
+                            <span class="days">Выходные</span>
+                            <span class="priceRub">1800 руб./час</span>
+                        </div>
+                    </div>
+                    <div class="price-right">
+                        <div>
+                            <span class="days">Понедельник-четверг</span>
+                            <span class="priceRub">1400 руб./час</span>
+                        </div>
+                        <div class="time">с 18-00 до 09-00</div>
+                        <div class="price-block">
+                            <span class="days">Пятница</span>
+                            <span class="priceRub">1800 руб./час</span>
+                        </div>
+                        <div class="time">с 18-00</div>
+                    </div>
+                </div>
+            </div>
+            <div id="discounts" style="display: none;">
+                <div class="price" style="height: 70px;">
+                    <div class="dop">- ЦЕНЫ ДЛЯ КОМПАНИИ ДО 10 ЧЕЛОВЕК, СВЫШЕ 10 ЧЕЛОВЕК — 200 РУБ. ЗА 1 ЧАС С ЧЕЛОВЕКА</div>
+                    <div class="dop">- МИНИМАЛЬНЫЙ ЗАКАЗ — 2 ЧАСА</div>
+                </div>
+                <div class="price">
+                    <div class="price-zag">Акции</div>
+                    <div class="price-list">
+                        <div class="price-left">
+                            <div>
+                                <span class="akcii" style="">Скидка 10% в честь дня рождения</span>
+                                <span style="vertical-align: middle;"><img src="images/family/dr.png" class="present"></img></span>
+                            </div>
+                            <div class="time" style="width: 330px; font-size: 15px;">- Скидка действует за 3 дня до дня рождения и 3 дня после дня рождения. При себе необходимо иметь документ, подтверждающий личность</div>
+                        </div>
+                        <div class="price-right">
+                            <span class="akcii" style="top: -13px;">При заказе 4-х часов + 1 час в подарок</span>
+                            <span><img src="images/family/Present.png" class="present"></img></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- ---- -->
         <!-- ------- -->
         <!-- Города -->

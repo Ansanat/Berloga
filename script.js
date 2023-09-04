@@ -1,7 +1,6 @@
 var i_gallery = 1;
-var gallery_id = 'banya';
 
-function gallery(imgCount, id) {
+function gallery(imgCount, id, gallery_id) {
     document.getElementById(id).style.opacity = 0;
     let opacity=0;
     opacityTimer = setInterval(()=>{
