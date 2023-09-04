@@ -1,4 +1,5 @@
 var i_gallery = 1;
+var imgNumber = 1;
 
 function gallery(imgCount, id, gallery_id) {
     document.getElementById(id).style.opacity = 0;
@@ -15,6 +16,22 @@ function gallery(imgCount, id, gallery_id) {
             i_gallery = 1;
         document.getElementById(id).src = 'images/' + gallery_id + '/Image' + i_gallery + '.jpg';
     }, 3000);
+}
+
+function swipeRight() {
+    if (imgNumber < 3) {
+        imgNumber++;
+        document.getElementById('circle' + imgNumber).style.background = "white";
+        document.getElementById('circle' + (imgNumber - 1)).style.background = "none";
+    }
+}
+
+function swipeLeft() {
+    if (imgNumber > 1) {
+        imgNumber--;
+        document.getElementById('circle' + imgNumber).style.background = "white";
+        document.getElementById('circle' + (imgNumber + 1)).style.background = "none";
+    }
 }
 
 function resetSelect() {
