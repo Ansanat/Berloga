@@ -15,7 +15,7 @@ function gallery(imgCount, id, gallery_id) {
         else
             i_gallery = 1;
         document.getElementById(id).src = 'images/' + gallery_id + '/Image' + i_gallery + '.jpg';
-    }, 3000);
+    }, 2000);
 }
 
 function swipeRight() {
