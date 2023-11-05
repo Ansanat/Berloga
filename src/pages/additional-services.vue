@@ -1,5 +1,7 @@
 <template>
-  <p>Дополнительные услуги</p>
+  <div class="v-addirional-services">
+    <img src="@/images/Masage.jpg" style="width:100%;"/>
+  </div>
 </template>
 
 <script>
@@ -12,5 +14,7 @@ export default {
 </script>
 
 <style>
-
+.v-addirional-services{
+  border: 5px solid #121820;
+}
 </style>
