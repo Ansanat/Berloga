@@ -24,17 +24,33 @@
     </swiper-slide>
     <swiper-slide>
         <img class="block-background" src="@/images/head-block/block2.jpg"/>
-    </swiper-slide><swiper-slide>
-        <img class="block-background" src="@/images/head-block/block3.jpg"/>
+        <div class="time-container">
+            <div class="time-text">Время хорошего пара</div>
+            <div class="info-button male-time" >Мужское время</div>
+            <div class="info-button female-time">Женское время</div>
+        </div>
     </swiper-slide>
     <swiper-slide>
         <img class="block-background" src="@/images/head-block/block3.jpg"/>
+        <div class="block-container anim">
+            <div class="block-text">Общий пар</div>
+            <div class="block-text">4 аромата за 10 минут</div>
+            <div class="info-button">Подробнее</div>
+        </div>
+    </swiper-slide>
+    <swiper-slide>
+        <img class="block-background" src="@/images/head-block/block4.jpg"/>
+        <div class="block-container">
+            <div class="block-text">Русская баня или турецкий хамам</div>
+            <div class="block-text">Всё для твоей красоты</div>
+            <div class="info-button" >Подробнее</div>
+        </div>
     </swiper-slide>
         <swiper-slide>
         <img class="block-background" src="@/images/head-block/block5.jpg"/>
         <div class="menu-container">
             <div class="menu-text">Кто парится, тот ест</div>
-            <div class="info-button">Меню</div>
+            <router-link to="/kitchen-page"><div class="info-button">Меню</div></router-link>
         </div>
     </swiper-slide>
     <swiper-slide>
@@ -153,6 +169,35 @@ export default {
     width: 900px;
 }
 
+.male-time{
+    left:25% !important;
+}
+
+.female-time{
+    left:75% !important;
+}
+
+.time-container{
+    width: 1200px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 51%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.time-text{
+    -webkit-text-stroke: 4px black;
+    text-stroke: 4px #121820;
+    font-weight: bold;
+    margin-top: 5px;
+    text-shadow: 2px 2px 5px black;
+    font-size:80px;
+    width: 1200px;
+}
+
 .loyal-container{
     width: 1500px;
     font-size: 30px;
@@ -244,6 +289,22 @@ export default {
     .menu-container{
         width: 400px;
         top:55%;
+    }
+    .time-text{
+        font-size: 50px;
+        width:400px;
+        -webkit-text-stroke: 2px black;
+        text-stroke: 2px #121820;
+    }
+    .time-container{
+        width: 400px;
+        top:70%;
+    }
+    .male-time{
+        left: 21.5% !important;
+    }
+    .female-time{
+        left:71.5% !important;
     }
 
     .loyal-text{
