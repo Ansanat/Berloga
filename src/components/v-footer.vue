@@ -25,6 +25,8 @@
 
 <style>
 .cities-background{
+    border-right: 5px solid #121820;
+    border-left: 5px solid #121820;
     object-fit: cover;
     height: 200px;
     position: relative;

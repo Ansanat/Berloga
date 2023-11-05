@@ -39,7 +39,6 @@
     margin-right: 1%;
     font-size: 1.2em;
     color: white;
-    font-family: Helvetica;
     cursor: pointer;
 }
 
