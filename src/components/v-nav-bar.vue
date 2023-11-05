@@ -1,0 +1,58 @@
+<template>
+    <div class="v-nav-bar">
+        <ul class="menu-list">
+            <router-link to="/male-time"><li class="menu-item">Мужское время</li></router-link>
+            <router-link to="/female-time"><li class="menu-item">Женское время</li></router-link>
+            <router-link to="/family-number"><li class="menu-item">Семейный номер</li></router-link>
+            <router-link to="/kitchen-page"><li class="menu-item">Кухня</li></router-link>
+            <router-link to="/additional-services"><li class="menu-item">Дополнительные услуги</li></router-link>
+            <router-link to="/contacts-page"><li class="menu-item">Контакты</li></router-link>
+            <router-link to="/vacancies-page"><li class="menu-item">Вакансии</li></router-link>
+            <router-link to="/rules-page"><li class="menu-item">Правила посещения</li></router-link>
+        </ul>
+    </div>
+</template>
+
+<script>
+    export default {
+        name: 'v-nav-bar',
+    }
+</script>
+
+<style>
+.v-nav-bar {
+    margin: none;
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #121820;
+}
+
+.menu-list {
+    text-align: center;
+    list-style: none;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 1.2em;
+    color: white;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    color: #D2B48C;
+}
+
+@media screen and (max-width: 700px) {
+    .menu-item {
+        margin-left: 0px;
+        display: block;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
+</style>
