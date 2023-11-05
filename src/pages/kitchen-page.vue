@@ -1,5 +1,5 @@
 <template>
-  <p>Кухня</p>
+  <img src="@/images/Menu.jpg" style="width:100%;"/>
 </template>
 
 <script>

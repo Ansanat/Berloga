@@ -1,0 +1,378 @@
+/* Header */
+.header {
+    position: relative;
+}
+.berloga-logo {
+    width: 200px;
+}
+.telegram-logo {
+    width: 40px;
+}
+/* ------- */
+/* Главный экран */
+.main {
+    position: relative;
+    text-align: center;
+}
+.main-background {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+.main-text {
+    /* background-color: #6e7073; */
+    font-family: Helvetica;
+    color:white;
+    position: absolute;
+    font-size: 70px;
+    top: 80%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 4px black;
+}
+.test-class{
+    position: absolute;
+    font-size: 70px;
+    top: 10%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.main-address {
+    margin-top: 1px;
+    font-size: 30px;
+}
+.main-telephone {
+    margin-top: 1px;
+    font-size: 30px;
+}
+.circles{
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle{
+    margin-left: 10px;
+    display: inline-block;
+    background: none;
+    border: 0.1875em solid white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+.str-left{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.str-right{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+/* ------------- */
+
+/* Главное меню */
+.main-menu {
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #121820;
+}
+.menu-list {
+    text-align: center;
+    list-style: none;
+}
+.menu-item {
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 1.2em;
+    color: white;
+    font-family: Helvetica;
+}
+.menu-item:hover {
+    color: #D2B48C;
+    cursor: pointer;
+}
+/* ------------ */
+/* Content */
+.gallery{
+    aspect-ratio: 16 / 4;
+    object-fit: cover;
+}
+.text-container {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zagolovok{
+    margin-top: 0;
+    margin-left: 40px;
+    font-family: Helvetica;
+    font-size: 40px;
+    display:inline-block; 
+    text-align: center;
+}
+.cursiv-text{
+    width: 25%;
+    font-size: 15px;
+    font-style: italic;
+    font-family: Helvetica;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.help-background{
+    background-color: #f5f8fc;
+    height: 550px;
+    margin-top: 60px;
+}
+
+.help{
+    font-family: Helvetica;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-style: italic;
+    width: 50%;
+}
+
+.spisok{
+    margin-top: 60px;
+    font-family: Helvetica;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.price {
+    position: relative;
+    background-color: #121820;
+    width: 100%;
+    height: 300px;
+}
+
+.price-zag {
+    margin-top: 15px;
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 50px;
+    color: #D2B48C;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.price-list {
+    font-family: Helvetica;
+    position: absolute;
+    width: 800px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.price-left{
+    float: left;
+    width: 47%;
+}
+
+.price-right{
+    float: right;
+    width: 47%;
+}
+
+.price-block{
+    margin-top: 7px;
+}
+
+.days {
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.priceRub {
+    float: right;
+    color: #D2B48C;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dop{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.time {
+    font-style: italic;
+    color:white;
+    font-size: 17px;
+}
+
+.present{
+    width: 40px;
+}
+
+.akcii{
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    position: relative;
+}
+
+.cities-background{
+    object-fit: cover;
+    height: 200px;
+    position: relative;
+    background-image: url(images/nsk_fon.JPG);
+}
+
+.cities {
+    position: absolute;
+    width: 700px;
+    height: 60px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.city{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    display: inline-block;
+    background-color: rgb(222, 222, 222);
+    border-color: #121820;
+    border-style: solid;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #121820;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.city:hover{
+    background-color: #D2B48C;
+}
+.menu-background{
+    height: 700px;
+}
+/* ------- */
+/* footer */
+.footer {
+    background-color: #121820;
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.footer-adress{
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    font-family: Helvetica;
+    color: white;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.copyright{
+    font-size:15px;
+    color: #858181;
+    font-family: Helvetica;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-adress:hover{
+    color:#D2B48C;
+}
+/* ------ */
+@media screen and (max-width: 700px) {
+    /* Главный экран */
+    .main-background{
+        aspect-ratio: 9 / 16;
+        object-fit: cover;
+    }
+    .menu-item {
+        margin-left: 0px;
+        display: block;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .str-left{
+        display: none;
+    }
+    .str-right{
+        display: none;
+    }
+    /* ---------- */
+    /* Content */
+    .gallery{
+        aspect-ratio: 3 / 3;
+        object-fit: cover;
+    }
+    .zagolovok{
+        margin-left: 2px;
+        font-size: 30px;
+    }
+    .cursiv-text{
+        display: none;
+    }
+    .city{
+        display: block;
+        margin-top: 10px;
+    }
+    .help{
+        width: 90%;
+    }
+    .price {
+        height: 500px;
+    }
+    .price-list{
+        width: 350px;
+    }
+    .price-left{
+        float: none;
+        width: 350px;
+    }
+    .price-right{
+        float: none;
+        width: 350px;
+    }
+    /* ------- */
+    .cities-background{
+        height: 300px;
+    }
+    .cities {
+        margin-top: 10px;
+        position: absolute;
+        width: 300px;
+        height: 110px;
+        left: 60%;
+        top: 30%;
+        transform: translate(-50%, -50%); 
+    }
+}
