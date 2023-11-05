@@ -1,5 +1,18 @@
 <template>
-    <div class="v-header-block">
+  <swiper
+    :slidesPerView="1"
+    :spaceBetween="0"
+    :keyboard="{
+      enabled: true,
+    }"
+    :pagination="{
+      clickable: true,
+    }"
+    :navigation="true"
+    :modules="modules"
+    class="mySwiper"
+  >
+    <swiper-slide>
         <img class="block-background" src="@/images/head-block/block1.jpg"/>
         <div class="block-container">
             <div class="block-text">Добро пожаловать в современную общественную баню</div>
@@ -8,21 +21,68 @@
             <div class="block-text">292-07-09</div> -->
             <div class="info-button">Подробнее</div>
         </div>
-    </div>
+    </swiper-slide>
+    <swiper-slide>
+        <img class="block-background" src="@/images/head-block/block2.jpg"/>
+    </swiper-slide><swiper-slide>
+        <img class="block-background" src="@/images/head-block/block3.jpg"/>
+    </swiper-slide>
+    <swiper-slide>Slide 4</swiper-slide><swiper-slide>Slide 5</swiper-slide>
+    <swiper-slide>Slide 6</swiper-slide>
+  </swiper>
 </template>
 
 <script>
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+
+// Import Swiper styles
+import 'swiper/css';
+
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
+// import required modules
+import { Keyboard, Pagination, Navigation } from 'swiper/modules';
+// import Slider from "@/components/v-slider";
+
 export default {
     name: 'v-header-block',
         props: {
         text: String,
     },
     components: {
-  }
+      Swiper,
+      SwiperSlide,
+    },
+    setup() {
+      return {
+        modules: [Keyboard, Pagination, Navigation],
+      };
+    },
 }
 </script>
 
 <style>
+.swiper-pagination-bullet, .swiper-pagination-bullet-active {
+    background-color: #121820;
+}
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+    color: #121820;
+}
+.swiper-button-next:hover{
+    color: white;
+    opacity:0.4;
+}
+
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-prev:after {
+    color: #121820;
+}
+.swiper-button-prev:hover{
+    color: white;
+    opacity:0.4;
+}
 .v-header-block {
     border: 4px solid #121820;
     position: relative;
@@ -96,6 +156,12 @@ export default {
         font-weight: 1;
         margin-top: 5px;
         text-shadow: 2px 2px 5px black;
+    }
+    .swiper-button-prev:after, .swiper-container-rtl .swiper-button-prev:after {
+        display: none;
+    }
+    .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+        display: none;
     }
 }
 
