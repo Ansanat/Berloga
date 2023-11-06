@@ -1,6 +1,6 @@
 <template>
     <div class="v-gallery">
-        <img class="gallery" src="@/images/banya/Image1.jpeg"  id="rybak" />
+        <img class="gallery" src="@/images/res.jpg"  id="rybak" />
     </div>
 </template>
 
@@ -14,7 +14,7 @@
 <style>
 .gallery{
     width: 100%;
-    aspect-ratio: 16 / 4;
+    aspect-ratio: 16 / 6;
     object-fit: cover;
 }
 
