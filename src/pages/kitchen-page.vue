@@ -1,5 +1,8 @@
 <template>
-  <img src="@/images/Menu.jpg" style="width:100%;"/>
+<div class="v-kitchen-page">
+  <img src="@/images/Menu1.jpg" class="menu-image"/>
+  <img src="@/images/Menu2.jpg" class="menu-image"/>
+</div>
 </template>
 
 <script>
@@ -12,5 +15,20 @@ export default {
 </script>
 
 <style>
-
+.v-kitchen-page{
+  width: 100%;
+  
+}
+.menu-image{
+  display: inline-block;
+  width: 50%;
+  height: 1300px;
+}
+@media screen and (max-width: 700px) {
+  .menu-image{
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+}
 </style>

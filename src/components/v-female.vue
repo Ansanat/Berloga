@@ -15,55 +15,39 @@
   >
     <div
       slot="container-start"
-      class="parallax-bg"
-      :style="{
-        'background-image':
-          'url(https://swiperjs.com/demos/images/nature-1.jpg)',
-      }"
+      class="parallax-bg mytest"
       data-swiper-parallax="-23%"
     ></div>
+      <swiper-slide>
+        <div class="title time-header" data-swiper-parallax="-300">Среда</div>
+        <div class="text" data-swiper-parallax="-100">
+            <p class="time">
+                с 11:00 до 14:00 - 500р/2часа
+            </p>
+            <p class="time">
+                с 14:00 до 17:00 - 700р/2часа
+            </p>
+            <p class="time">
+                с 17:00 до 23:00 - 900р/2часа
+            </p>
+            <p class="time">
+                Общий пар - 12:30, 15:30, 18:30, 20:30
+            </p>
+        </div> 
+      </swiper-slide>
     <swiper-slide>
-      <div class="title" data-swiper-parallax="-300">Slide 1</div>
-      <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
-      <div class="text" data-swiper-parallax="-100">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-          laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-          Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-          Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper
-          velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut
-          libero. Aenean feugiat non eros quis feugiat.
-        </p>
-      </div> </swiper-slide
-    ><swiper-slide>
-      <div class="title" data-swiper-parallax="-300">Slide 2</div>
-      <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
-      <div class="text" data-swiper-parallax="-100">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-          laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-          Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-          Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper
-          velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut
-          libero. Aenean feugiat non eros quis feugiat.
-        </p>
-      </div> </swiper-slide
-    ><swiper-slide>
-      <div class="title" data-swiper-parallax="-300">Slide 3</div>
-      <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
-      <div class="text" data-swiper-parallax="-100">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-          laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-          Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-          Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper
-          velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut
-          libero. Aenean feugiat non eros quis feugiat.
-        </p>
-      </div>
+        <div class="title time-header" data-swiper-parallax="-300">Пятница</div>
+        <div class="text" data-swiper-parallax="-100">
+            <p class="time">
+                с 11:00 до 14:00 - 500р/2часа
+            </p>
+            <p class="time">
+                с 14:00 до 16:00 - 700р/2часа
+            </p>
+            <p class="time">
+                Общий пар - 12:30, 14:30
+            </p>
+        </div> 
     </swiper-slide>
   </swiper>
 </template>
@@ -77,12 +61,10 @@
   import 'swiper/css/pagination';
   import 'swiper/css/navigation';
 
-
   // import required modules
   import { Parallax, Pagination, Navigation } from 'swiper/modules';
 
   export default {
-    name: 'v-female',
     components: {
       Swiper,
       SwiperSlide,
@@ -94,3 +76,13 @@
     },
   };
 </script>
+<style>
+.time-header{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 900;
+}
+.time{
+    text-align: center;
+}
+</style>

@@ -10,7 +10,7 @@
   </div>
   <CardGallery />
   <div class="text-container">
-      <div class="zagolovok" id="zagolovok">Общий пар</div>
+      <div class="zagolovok" id="zagolovok">Общее отделение</div>
   </div>
   <div class="help-background">
       <div class="help" style="padding-top: 20px;">Общее отделение банного комплекса Берлога рассчитано на одновременное посещение пятидесяти человек. Каждому клиенту предоставляется отдельный шкафчик с электронным замком, номер на шкафчике соответствует посадочному месту. В моечном отделении находится бассейн размерами 3*6 метра температура воды 28 градусов. Русская парная рассчитанная на 20 человек. Турецкий хамам в котором могут комфортно расположиться 10 человек. Для любителей экстрима есть купель с температурой воды 12 градусов. Для клиентов бани работает кухня.</div>
@@ -22,17 +22,19 @@
     </div>
     <div class="male-time-card">
       <div class="time-card-header">Женское время</div>
-      <MaleTime class="MaleTime"/>
+      <FemaleTime class="MaleTime"/>
     </div>
   </div>
   <div class="text-container">
-      <div class="zagolovok" id="zagolovok">UDS???</div>
+      <div class="zagolovok" id="zagolovok">Система лояльности</div>
   </div>
+  <img src="@/images/UDS.jpg" style="width:100%; margin-top: 20px;"/>
 </div>
 </template>
 
 <script>
 import MaleTime from '@/components/v-male.vue'
+import FemaleTime from '@/components/v-female.vue'
 import Gallery from '@/components/v-gallery.vue'
 import CardGallery from '@/components/v-card-gallery'
 
@@ -41,7 +43,8 @@ export default {
   components: {
     Gallery,
     CardGallery,
-    MaleTime
+    MaleTime,
+    FemaleTime
   }
 }
 </script>
@@ -102,7 +105,8 @@ export default {
 
 .help-background{
     background-color: #f5f8fc;
-    height: 300px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 60px;
 }
 
@@ -126,11 +130,6 @@ export default {
   .male-time-card{
     display: block;
     width: 100%;
-  }
-  .help-background{
-    background-color: #f5f8fc;
-    height: 670px;
-    margin-top: 60px;
   }
   .time-card-header{
     margin-left: 0px;

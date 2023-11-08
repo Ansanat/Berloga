@@ -22,24 +22,16 @@
         <div class="title time-header" data-swiper-parallax="-300">Вторник</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-                с 11:00-14:00- 500р/2часа
+                с 11:00 до 14:00 - 500р/2часа
             </p>
             <p class="time">
-                с 14:00 до 17:00- 700р/2часа
+                с 14:00 до 17:00 - 700р/2часа
             </p>
             <p class="time">
-                с 17:00 до 23:00- 900р/2часа
+                с 17:00 до 23:00 - 900р/2часа
             </p>
             <p class="time">
-                Общий пар - 12:30, 15:30, 18:30, 20:30
-            </p>
-        </div> 
-      </swiper-slide>
-      <swiper-slide>
-        <div class="title time-header" data-swiper-parallax="-300">Среда</div>
-        <div class="text" data-swiper-parallax="-100">
-            <p class="time">
-                Женский день
+                Общий пар - 15:00, 16:30, 18:00, 19:30, 21:00
             </p>
         </div> 
       </swiper-slide>
@@ -47,16 +39,16 @@
         <div class="title time-header" data-swiper-parallax="-300">Четверг</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-                с 11:00-14:00- 500р/2часа
+                с 11:00 до 14:00 - 500р/2часа
             </p>
             <p class="time">
-                с 14:00 до 17:00- 700р/2часа
+                с 14:00 до 17:00 - 700р/2часа
             </p>
             <p class="time">
-                с 17:00 до 23:00- 1000р/2часа
+                с 17:00 до 23:00 - 1000р/2часа
             </p>
             <p class="time">
-                Общий пар - 12:30, 15:30, 18:30, 20:30
+                Общий пар - 15:00, 16:30, 18:00, 19:30, 21:00
             </p>
         </div> 
       </swiper-slide>
@@ -64,16 +56,10 @@
         <div class="title time-header" data-swiper-parallax="-300">Пятница</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-                тут надо править
+                с 17:00 до 23:00 - 1000р/2часа
             </p>
             <p class="time">
-                с 14:00 до 17:00- 700р/2часа
-            </p>
-            <p class="time">
-                с 17:00 до 23:00- 1000р/2часа
-            </p>
-            <p class="time">
-                Общий пар - 12:30, 15:30, 18:30, 20:30
+                Общий пар - 18:00, 19:30, 21:00
             </p>
         </div> 
     </swiper-slide>
@@ -81,13 +67,13 @@
         <div class="title time-header" data-swiper-parallax="-300">Суббота</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-                с 11:00-14:00- 1000р/2часа
+                с 11:00-14:00 - 1000р/2часа
             </p>
             <p class="time">
-                с 14:00 до 23:00- 1200р/2часа
+                с 14:00 до 23:00 - 1200р/2часа
             </p>
             <p class="time">
-                Общий пар - 12:30, 15:30, 18:30, 20:30
+                Общий пар - 13:30, 16:30, 18:00, 19:30, 21:00
             </p>
         </div> 
     </swiper-slide>
@@ -95,21 +81,13 @@
         <div class="title time-header" data-swiper-parallax="-300">Воскресенье</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-                с 11:00-14:00- 1000р/2часа
+                с 11:00-14:00 - 1000р/2часа
             </p>
             <p class="time">
-                с 14:00 до 23:00- 1200р/2часа
+                с 14:00 до 23:00 - 1200р/2часа
             </p>
             <p class="time">
-                Общий пар - 12:30, 15:30, 18:30, 20:30
-            </p>
-        </div> 
-    </swiper-slide>
-    <swiper-slide>
-        <div class="title time-header" data-swiper-parallax="-300">Понедельник</div>
-        <div class="text" data-swiper-parallax="-100">
-            <p class="time">
-                Санитарный день
+                Общий пар - 13:30, 16:30, 18:00, 19:30, 21:00
             </p>
         </div> 
     </swiper-slide>

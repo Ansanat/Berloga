@@ -141,6 +141,7 @@ export default {
 }
 
 .block-text {
+    
     -webkit-text-stroke: 2.5px black;
     text-stroke: 2.5px #121820;
     font-weight: bold;

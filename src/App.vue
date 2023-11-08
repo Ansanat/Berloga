@@ -24,6 +24,6 @@ export default{
 
 <style>
   * {
-
+    font-family: 'DINPro-Medium', Arial, Helvetica, sans-serif;
   }
 </style>

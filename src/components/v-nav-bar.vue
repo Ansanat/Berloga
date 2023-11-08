@@ -1,8 +1,8 @@
 <template>
     <div class="v-nav-bar">
         <ul class="menu-list">
-            <router-link to="/male-time"><li class="menu-item">Мужское время</li></router-link>
-            <router-link to="/female-time"><li class="menu-item">Женское время</li></router-link>
+            <router-link to="/"><li class="menu-item">Мужское время</li></router-link>
+            <router-link to="/"><li class="menu-item">Женское время</li></router-link>
             <router-link to="/family-number"><li class="menu-item">Семейный номер</li></router-link>
             <router-link to="/kitchen-page"><li class="menu-item">Кухня</li></router-link>
             <router-link to="/additional-services"><li class="menu-item">Дополнительные услуги</li></router-link>
