@@ -67,7 +67,7 @@
         <div class="title time-header" data-swiper-parallax="-300">Суббота</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-                с 11:00-14:00 - 1000р/2часа
+                с 11:00 до 14:00 - 1000р/2часа
             </p>
             <p class="time">
                 с 14:00 до 23:00 - 1200р/2часа
@@ -81,7 +81,7 @@
         <div class="title time-header" data-swiper-parallax="-300">Воскресенье</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-                с 11:00-14:00 - 1000р/2часа
+                с 11:00 до 14:00 - 1000р/2часа
             </p>
             <p class="time">
                 с 14:00 до 23:00 - 1200р/2часа

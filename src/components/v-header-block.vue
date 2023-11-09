@@ -15,10 +15,7 @@
     <swiper-slide>
         <img class="block-background" src="@/images/head-block/block1.jpg"/>
         <div class="block-container anim">
-            <div class="block-text">Добро пожаловать в современную общественную баню</div>
-            <div class="block-text">Берлога</div>
-            <!-- <div class="block-text">г. Новосибирск, Трикотажный 5-й переулок 23</div>
-            <div class="block-text">292-07-09</div> -->
+            <div class="block-text">Добро пожаловать в банный комплекс Берлога</div>
             <div class="info-button">Подробнее</div>
         </div>
     </swiper-slide>
@@ -33,29 +30,27 @@
     <swiper-slide>
         <img class="block-background" src="@/images/head-block/block3.jpg"/>
         <div class="block-container anim">
-            <div class="block-text">Общий пар</div>
-            <div class="block-text">4 аромата за 10 минут</div>
+            <div class="block-text">Коллективное парение</div>
             <div class="info-button">Подробнее</div>
         </div>
     </swiper-slide>
     <swiper-slide>
         <img class="block-background" src="@/images/head-block/block4.jpg"/>
         <div class="block-container">
-            <div class="block-text">Русская баня или турецкий хамам</div>
-            <div class="block-text">Всё для твоей красоты</div>
+            <div class="block-text">Кедровая парная</div>
             <div class="info-button" >Подробнее</div>
         </div>
     </swiper-slide>
         <swiper-slide>
         <img class="block-background" src="@/images/head-block/block5.jpg"/>
         <div class="menu-container">
-            <div class="menu-text">Кто парится, тот ест</div>
+            <div class="menu-text">Еда и напитки</div>
             <router-link to="/kitchen-page"><div class="info-button">Меню</div></router-link>
         </div>
     </swiper-slide>
     <swiper-slide>
         <img class="block-background" src="@/images/head-block/block6.jpg"/>
-        <div class="loyal-container" style="top:63%;">
+        <div class="loyal-container">
             <div class="loyal-text">Система лояльности</div>
             <div class="info-button">Подробнее</div>
         </div>
@@ -130,21 +125,19 @@ export default {
 }
 
 .block-container{
-    width: 1100px;
+    width: 1500px;
     font-size: 60px;
     color: white;
     position: absolute;
     left: 50%;
-    top: 73%;
+    top: 80%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
 .block-text {
-    
-    -webkit-text-stroke: 2.5px black;
     text-stroke: 2.5px #121820;
-    font-weight: bold;
+
     margin-top: 5px;
     text-shadow: 2px 2px 5px black;
 }
@@ -155,18 +148,18 @@ export default {
     color: white;
     position: absolute;
     left: 51%;
-    top: 70%;
+    top: 80%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
 .menu-text{
-    -webkit-text-stroke: 5px black;
+
     text-stroke: 5px #121820;
-    font-weight: bold;
+
     margin-top: 5px;
     text-shadow: 2px 2px 5px black;
-    font-size:100px;
+    font-size:70px;
     width: 900px;
 }
 
@@ -190,9 +183,9 @@ export default {
 }
 
 .time-text{
-    -webkit-text-stroke: 4px black;
+
     text-stroke: 4px #121820;
-    font-weight: bold;
+
     margin-top: 5px;
     text-shadow: 2px 2px 5px black;
     font-size:80px;
@@ -205,18 +198,17 @@ export default {
     color: white;
     position: absolute;
     left: 51%;
-    top: 63%;
+    top: 70%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
 .loyal-text{
-    -webkit-text-stroke: 5px black;
-    text-stroke: 5px #121820;
-    font-weight: bold;
+
+
     margin-top: 5px;
     text-shadow: 2px 2px 5px black;
-    font-size:100px;
+    font-size:70px;
     width: 1500px;
 }
 
@@ -294,7 +286,7 @@ export default {
     .time-text{
         font-size: 50px;
         width:400px;
-        -webkit-text-stroke: 2px black;
+
         text-stroke: 2px #121820;
     }
     .time-container{
