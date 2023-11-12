@@ -21,6 +21,7 @@
     <swiper-slide><img src="@/images/card-gallery/Image7.jpg" class="card-gallery"></swiper-slide>
     <swiper-slide><img src="@/images/card-gallery/Image8.jpg" class="card-gallery"></swiper-slide>
     <swiper-slide><img src="@/images/card-gallery/Image9.jpg" class="card-gallery"></swiper-slide>
+    <swiper-slide><img src="@/images/card-gallery/Image10.jpg" class="card-gallery"></swiper-slide>
   </swiper>
 </template>
 <script>

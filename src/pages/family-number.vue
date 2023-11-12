@@ -48,8 +48,15 @@ export default {
   text-align: center;
 }
 .dop{
+  margin-top: 0px;
   top: 20%;
   transform: translate(0, -60%);
   margin-bottom: 0;
+}
+@media screen and (max-width: 700px) {
+  .dop {
+      top: 20%;
+      transform: translate(0, -20%);
+  }
 }
 </style>

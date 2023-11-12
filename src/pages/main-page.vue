@@ -28,7 +28,11 @@
   <div class="text-container">
       <div class="zagolovok" id="zagolovok">Система лояльности</div>
   </div>
-  <img src="@/images/UDS.jpg" style="width:100%; margin-top: 20px;"/>
+  <!-- <img src="@/images/UDS.jpg" style="width:100%; margin-top: 20px;"/> -->
+  <div class="UDS">
+    <img src="@/images/UDS1.jpg" class="UDS-image"/>
+    <img src="@/images/UDS2.jpg" class="UDS-image"/>
+  </div>
 </div>
 </template>
 
@@ -54,6 +58,14 @@ export default {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+.UDS{
+  width: 100%;
+  margin-top: 20px;
+}
+.UDS-image{
+  display: inline-block;
+  width: 50%;
 }
 .cards{
   width: 100%;
@@ -130,6 +142,10 @@ export default {
   .male-time-card{
     display: block;
     width: 100%;
+  }
+  .UDS-image{
+    width: 100%;
+    display: block;
   }
   .time-card-header{
     margin-left: 0px;

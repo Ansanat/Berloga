@@ -41,15 +41,21 @@
             <div class="info-button" >Подробнее</div>
         </div>
     </swiper-slide>
-        <swiper-slide>
+    <swiper-slide>
         <img class="block-background" src="@/images/head-block/block5.jpg"/>
+        <div class="menu-container">
+            <div class="menu-text">Турецкий хамам</div>
+        </div>
+    </swiper-slide>
+    <swiper-slide>
+        <img class="block-background" src="@/images/head-block/block6.jpg"/>
         <div class="menu-container">
             <div class="menu-text">Еда и напитки</div>
             <router-link to="/kitchen-page"><div class="info-button">Меню</div></router-link>
         </div>
     </swiper-slide>
     <swiper-slide>
-        <img class="block-background" src="@/images/head-block/block6.jpg"/>
+        <img class="block-background" src="@/images/head-block/block7.jpg"/>
         <div class="loyal-container">
             <div class="loyal-text">Система лояльности</div>
             <div class="info-button">Подробнее</div>
@@ -204,8 +210,6 @@ export default {
 }
 
 .loyal-text{
-
-
     margin-top: 5px;
     text-shadow: 2px 2px 5px black;
     font-size:70px;
@@ -262,8 +266,6 @@ export default {
         width: 350px;
     }
     .block-text {
-        -webkit-text-stroke: 1px black;
-        text-stroke: 1px #121820;
         margin-top: 5px;
         text-shadow: 2px 2px 5px black;
     }
@@ -276,8 +278,6 @@ export default {
     .menu-text{
         font-size: 50px;
         width:400px;
-        -webkit-text-stroke: 2px black;
-        text-stroke: 2px #121820;
     }
     .menu-container{
         width: 400px;
@@ -286,8 +286,6 @@ export default {
     .time-text{
         font-size: 50px;
         width:400px;
-
-        text-stroke: 2px #121820;
     }
     .time-container{
         width: 400px;
@@ -303,8 +301,6 @@ export default {
     .loyal-text{
         font-size: 50px;
         width:400px;
-        -webkit-text-stroke: 2px black;
-        text-stroke: 2px #121820;
     }
     .loyal-container{
         width: 400px;
