@@ -7,7 +7,6 @@
             <router-link to="/kitchen-page"><li class="menu-item">Кухня</li></router-link>
             <router-link to="/additional-services"><li class="menu-item">Дополнительные услуги</li></router-link>
             <router-link to="/contacts-page"><li class="menu-item">Контакты</li></router-link>
-            <router-link to="/vacancies-page"><li class="menu-item">Вакансии</li></router-link>
             <router-link to="/rules-page"><li class="menu-item">Правила посещения</li></router-link>
         </ul>
     </div>
