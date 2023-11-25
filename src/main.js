@@ -25,11 +25,11 @@ const router = createRouter ({
             component: Main
         },
         {
-            path: '/',
+            path: '/male-time',
             component: MaleTime
         },
         {
-            path: '/',
+            path: '/female-time',
             component: FemaleTime
         },
         {

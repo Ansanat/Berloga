@@ -5,7 +5,6 @@
             <router-link to="/"><li class="menu-item">Женское время</li></router-link>
             <router-link to="/family-number"><li class="menu-item">Семейный номер</li></router-link>
             <router-link to="/kitchen-page"><li class="menu-item">Кухня</li></router-link>
-            <router-link to="/additional-services"><li class="menu-item">Дополнительные услуги</li></router-link>
             <router-link to="/contacts-page"><li class="menu-item">Контакты</li></router-link>
             <router-link to="/rules-page"><li class="menu-item">Правила посещения</li></router-link>
         </ul>

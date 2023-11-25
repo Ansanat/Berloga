@@ -3,7 +3,7 @@
         <div class="cities-background">
             <div class="cities">
                 <div class="city" style="background-color: #D2B48C;">Новосибирск</div>
-                <div class="city">Якутск</div>
+                <div class="city">Нерюнгри</div>
                 <div class="city">Краснообск</div>
             </div>
         </div>
