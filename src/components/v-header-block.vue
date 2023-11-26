@@ -318,4 +318,28 @@ export default {
     }
 }
 
+@media screen and (min-width: 701px) and  (max-width: 1100px){
+    .block-container{
+        top: 65%;
+        font-size: 35px;
+        width: 700px;
+    }
+    .time-container{
+        width: 400px;
+        top:65%;
+    }
+    .time-text{
+        font-size: 50px;
+        width:400px;
+    }
+        .menu-text{
+        font-size: 50px;
+        width:400px;
+    }
+    .menu-container{
+        width: 400px;
+        top:55%;
+    }
+}
+
 </style>

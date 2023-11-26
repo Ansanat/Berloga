@@ -59,4 +59,11 @@ export default {
       transform: translate(0, -20%);
   }
 }
+
+@media screen and (min-width: 701px) and  (max-width: 1100px){
+  .dop {
+      top: 20%;
+      transform: translate(0, -20%);
+  }
+}
 </style>

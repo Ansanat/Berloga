@@ -167,4 +167,32 @@ export default {
       border: 1px solid #121820
     }
 }
+
+@media screen and (min-width: 701px) and  (max-width: 1100px){
+  .male-time-card{
+    display: block;
+    width: 100%;
+  }
+  .time-card-header{
+    margin-left: 0px;
+  }
+  .zagolovok{
+      margin-left: 2px;
+      font-size: 30px;
+  }
+  .cursiv-text{
+      display: none;
+  }
+  .help{
+      width: 90%;
+  }
+  .MaleTime{
+    width:300px;
+    height: 230px;
+    background-color:#f5f8fc;
+    border-radius: 20px;
+    border: 1px solid #121820
+  }
+
+}
 </style>

@@ -56,4 +56,10 @@
         font-size: 20px;
     }
 }
+
+@media screen and (min-width: 701px) and  (max-width: 1100px){
+    .menu-item {
+        font-size: 1em;
+    }
+}
 </style>
