@@ -28,6 +28,7 @@ const router = createRouter ({
             }
           }
     },
+    mode: 'history',
     routes: [
         {
             path: '/',
