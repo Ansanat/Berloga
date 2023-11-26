@@ -2,7 +2,7 @@
 <div class="v-footer">
         <div class="cities-background">
             <div class="cities">
-                <div class="city" style="background-color: #D2B48C;">Новосибирск</div>
+                <a href="#"><div class="city" style="background-color: #D2B48C;">Новосибирск</div></a>
                 <div class="city">Нерюнгри</div>
                 <div class="city">Краснообск</div>
             </div>

@@ -2,33 +2,32 @@
 <div class="v-main-page">
   <Gallery />
   <div class="text-container">
-      <img src="@/images/banya/banyaLogo.png" width="100px"/>
-      <div class="zagolovok" id="zagolovok">Банный комплекс "Берлога"</div>
+      <img src="@/images/banya/banyaLogo.png" id="berloga" width="100px"/>
+      <div class="zagolovok">Банный комплекс "Берлога"</div>
   </div>
   <div class="help-background">
       <div class="help" style="padding-top: 20px;">Современная общественная баня, место где можно расслабиться, восстановить свое физическое и психоэмоциональное состояние. Комплекс рассчитан на комфортное пребывание 50 человек. На территории комплекса большой зал отдыха с мягкой мебелью и возможностью просмотра телевизионных программ. Для любителей банной культуры Русская парная объем которой 70м.куб. Температура в парной 85 градусов, отапливается парная газом что позволяет создать благоприятный климат и мягкий пар. Для любителей мягкого влажного пара работает хаммам, в моечном отделении есть бассейн с комнатной температурой воды, для любителей экстрима имеется купель с ледяной водой. Клиентам комплекса предлагается бар и кухня.</div>
   </div>
   <CardGallery />
   <div class="text-container">
-      <div class="zagolovok" id="zagolovok">Общее отделение</div>
+      <div class="zagolovok" id="common">Общее отделение</div>
   </div>
   <div class="help-background">
       <div class="help" style="padding-top: 20px;">Общее отделение банного комплекса Берлога рассчитано на одновременное посещение пятидесяти человек. Каждому клиенту предоставляется отдельный шкафчик с электронным замком, номер на шкафчике соответствует посадочному месту. В моечном отделении находится бассейн размерами 3*6 метра температура воды 28 градусов. Русская парная рассчитанная на 20 человек. Турецкий хамам в котором могут комфортно расположиться 10 человек. Для любителей экстрима есть купель с температурой воды 12 градусов. Для клиентов бани работает кухня.</div>
   </div>
   <div class="cards">
     <div class="male-time-card">
-      <div class="time-card-header">Мужское время</div>
+      <div class="time-card-header" id="maleTime">Мужское время</div>
       <MaleTime class="MaleTime"/>
     </div>
     <div class="male-time-card">
-      <div class="time-card-header">Женское время</div>
+      <div class="time-card-header" id="femaleTime">Женское время</div>
       <FemaleTime class="MaleTime"/>
     </div>
   </div>
   <div class="text-container">
-      <div class="zagolovok" id="zagolovok">Система лояльности</div>
+      <div class="zagolovok" id="UDS">Система лояльности</div>
   </div>
-  <!-- <img src="@/images/UDS.jpg" style="width:100%; margin-top: 20px;"/> -->
   <div class="UDS">
     <img src="@/images/UDS1.jpg" class="UDS-image"/>
     <img src="@/images/UDS2.jpg" class="UDS-image"/>

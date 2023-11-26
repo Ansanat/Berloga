@@ -1,5 +1,5 @@
 <template>
-<div class="v-rules-page">
+<div class="v-rules-page" id="rules-page">
   <div class="rules-position">
     <legend class="rules-zag">Общие положения</legend>
     <div class="rules">Настоящие правила утверждаются администрацией банного комплекса «Берлога», далее «Бани» и представляют собой публичную оферту, содержащую все существенные условия договора о возмездном оказании услуг между Баней и Посетителем.</div>

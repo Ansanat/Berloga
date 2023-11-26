@@ -18,11 +18,21 @@ import {
 library.add(faChevronLeft, faChevronRight);
 import { createRouter, createWebHistory } from 'vue-router'
 
+
 const router = createRouter ({
+    scrollBehavior (to){
+        if (to.hash) {
+            return {
+              el: to.hash,
+              behavior: 'smooth',
+            }
+          }
+    },
     routes: [
         {
             path: '/',
-            component: Main
+            component: Main,
+            name: 'Main'
         },
         {
             path: '/male-time',
@@ -34,11 +44,13 @@ const router = createRouter ({
         },
         {
             path: '/family-number',
-            component: FamilyNumber
+            component: FamilyNumber,
+            name: 'Family'
         },
         {
             path: '/kitchen-page',
-            component: Kitchen
+            component: Kitchen,
+            name: 'Kitchen'
         },
         {
             path: '/additional-services',
@@ -46,7 +58,8 @@ const router = createRouter ({
         },
         {
             path: '/contacts-page',
-            component: Contacts
+            component: Contacts,
+            name: 'Contacts'
         },
         {
             path: '/vacancies-page',
@@ -54,7 +67,8 @@ const router = createRouter ({
         },
         {
             path: '/rules-page',
-            component: Rules
+            component: Rules,
+            name: 'Rules'
         }
     ],
     history: createWebHistory()

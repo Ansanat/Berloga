@@ -1,12 +1,12 @@
 <template>
     <div class="v-nav-bar">
         <ul class="menu-list">
-            <router-link to="/" style="text-decoration: none;"><li class="menu-item">Мужское время</li></router-link>
-            <router-link to="/" style="text-decoration: none;"><li class="menu-item">Женское время</li></router-link>
-            <router-link to="/family-number" style="text-decoration: none;"><li class="menu-item">Семейный номер</li></router-link>
-            <router-link to="/kitchen-page" style="text-decoration: none;"><li class="menu-item">Кухня</li></router-link>
-            <router-link to="/contacts-page" style="text-decoration: none;"><li class="menu-item">Контакты</li></router-link>
-            <router-link to="/rules-page" style="text-decoration: none;"><li class="menu-item">Правила посещения</li></router-link>
+            <router-link :to="{ name: 'Main', hash: '#maleTime'}" style="text-decoration: none;"><li class="menu-item">Мужское время</li></router-link>
+            <router-link :to="{ name: 'Main', hash: '#femaleTime'}" style="text-decoration: none;"><li class="menu-item">Женское время</li></router-link>
+            <router-link :to="{ name: 'Family', hash: '#family-page'}" style="text-decoration: none;"><li class="menu-item">Семейный номер</li></router-link>
+            <router-link :to="{ name: 'Kitchen', hash: '#kitchen-page'}" style="text-decoration: none;"><li class="menu-item">Кухня</li></router-link>
+            <router-link :to="{ name: 'Contacts', hash: '#contacts-page'}" style="text-decoration: none;"><li class="menu-item">Контакты</li></router-link>
+            <router-link :to="{ name: 'Rules', hash: '#rules-page'}" style="text-decoration: none;"><li class="menu-item">Правила посещения</li></router-link>
         </ul>
     </div>
 </template>

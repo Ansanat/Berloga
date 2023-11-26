@@ -1,7 +1,7 @@
 <template>
-<div class="v-contacts">
+<div class="v-contacts" id="contacts-page">
     <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A6008a3aa7b056afb52e4c45051ef9bd227c828e84ba14593a9c08814231b54d7&amp;source=constructor" frameborder="0"></iframe>
-    <p>Контактный телефон: 292-07-09</p>
+    <p class="contact-number">Контактный телефон: 292-07-09</p>
     <span><a href="https://t.me/ErchimBerloga"><img class="telegram" src="@/images/telegram_logo.png" /></a></span>
     <span><a href="https://vk.com/berlogansk"><img class="telegram" src="@/images/VK_logo.png" /></a></span>
     <span><a href="https://www.instagram.com/berlogansk/"><img class="telegram" src="@/images/Inst_logo.jpg" /></a></span>
@@ -45,6 +45,9 @@ export default {
   }
   .telegram{
     width: 60px;
+  }
+  .contact-number{
+    font-size: 20px;
   }
 }
 </style>

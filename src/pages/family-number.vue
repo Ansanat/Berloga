@@ -1,6 +1,6 @@
 <template>
 <div class="v-main-page">
-  <FamilyGallery/>
+  <FamilyGallery id="family-page"/>
   <div class="text-container">
       <img src="@/images/banya/banyaLogo.png" width="100px"/>
       <div class="zagolovok" id="zagolovok">Семейный номер</div>

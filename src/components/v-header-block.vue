@@ -16,29 +16,29 @@
         <img class="block-background" src="@/images/head-block/block1.jpg"/>
         <div class="block-container anim">
             <div class="block-text">Добро пожаловать в банный комплекс Берлога</div>
-            <div class="info-button">Подробнее</div>
+            <router-link :to="{ name: 'Main', hash: '#berloga'}" style="text-decoration: none;"><div class="info-button">Подробнее</div></router-link>
         </div>
     </swiper-slide>
     <swiper-slide>
         <img class="block-background" src="@/images/head-block/block2.jpg"/>
         <div class="time-container">
             <div class="time-text">Время хорошего пара</div>
-            <div class="info-button male-time" >Мужское время</div>
-            <div class="info-button female-time">Женское время</div>
+            <router-link :to="{ name: 'Main', hash: '#maleTime'}" style="text-decoration: none;"><div class="info-button male-time" >Мужское время</div></router-link>
+            <router-link :to="{ name: 'Main', hash: '#femaleTime'}" style="text-decoration: none;"><div class="info-button female-time">Женское время</div></router-link>
         </div>
     </swiper-slide>
     <swiper-slide>
         <img class="block-background" src="@/images/head-block/block3.jpg"/>
         <div class="block-container anim">
             <div class="block-text">Коллективное парение</div>
-            <div class="info-button">Подробнее</div>
+            <router-link :to="{ name: 'Main', hash: '#common'}" style="text-decoration: none;"><div class="info-button">Подробнее</div></router-link>
         </div>
     </swiper-slide>
     <swiper-slide>
         <img class="block-background" src="@/images/head-block/block4.jpg"/>
         <div class="block-container">
             <div class="block-text">Кедровая парная</div>
-            <div class="info-button" >Подробнее</div>
+            <router-link :to="{ name: 'Main', hash: '#common'}" style="text-decoration: none;"><div class="info-button" >Подробнее</div></router-link>
         </div>
     </swiper-slide>
     <swiper-slide>
@@ -51,14 +51,14 @@
         <img class="block-background" src="@/images/head-block/block6.jpg"/>
         <div class="menu-container">
             <div class="menu-text">Еда и напитки</div>
-            <router-link to="/kitchen-page"><div class="info-button">Меню</div></router-link>
+            <router-link :to="{ name: 'Kitchen', hash: '#kitchen-page'}" style="text-decoration: none;"><div class="info-button">Меню</div></router-link>
         </div>
     </swiper-slide>
     <swiper-slide>
         <img class="block-background" src="@/images/head-block/block7.jpg"/>
         <div class="loyal-container">
             <div class="loyal-text">Система лояльности</div>
-            <div class="info-button">Подробнее</div>
+            <router-link :to="{ name: 'Main', hash: '#UDS'}" style="text-decoration: none;"><div class="info-button">Подробнее</div></router-link>
         </div>
     </swiper-slide>
 
@@ -94,6 +94,16 @@ export default {
         modules: [Keyboard, Pagination, Navigation],
       };
     },
+    data() {
+        return {
+        ref: null
+        };
+    },
+    methods: {
+        handleClick() {
+        this.$refs.targetRef.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
 }
 </script>
 

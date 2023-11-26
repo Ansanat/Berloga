@@ -1,5 +1,5 @@
 <template>
-<div class="v-kitchen-page">
+<div class="v-kitchen-page" id="kitchen-page">
   <img src="@/images/Menu1.jpg" class="menu-image"/>
   <img src="@/images/Menu2.jpg" class="menu-image"/>
 </div>
