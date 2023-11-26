@@ -44,7 +44,7 @@ export default {
     margin: 0px;
   }
   .telegram{
-    width: 100px;
+    width: 60px;
   }
 }
 </style>
