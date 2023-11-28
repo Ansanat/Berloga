@@ -332,7 +332,7 @@ export default {
         font-size: 50px;
         width:400px;
     }
-        .menu-text{
+    .menu-text{
         font-size: 50px;
         width:400px;
     }
