@@ -1,5 +1,5 @@
 <template>
-<div class="v-main-page">
+<div class="v-main-page" id="main-page">
   <Gallery />
   <div class="text-container">
       <img src="@/images/banya/banyaLogo.png" id="berloga" width="100px"/>
@@ -70,7 +70,7 @@ export default {
   width: 100%;
 }
 .MaleTime{
-  width:500px;
+  width:550px;
   height: 230px;
   background-color:#f5f8fc;
   border-radius: 20px;

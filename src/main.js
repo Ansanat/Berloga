@@ -64,7 +64,8 @@ const router = createRouter ({
         },
         {
             path: '/vacancies-page',
-            component: Vacancies
+            component: Vacancies,
+            name: 'Vacancies'
         },
         {
             path: '/rules-page',

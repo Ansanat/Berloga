@@ -1,8 +1,8 @@
 <template>
   <swiper
     :style="{
-      '--swiper-navigation-color': '#fff',
-      '--swiper-pagination-color': '#fff',
+      '--swiper-navigation-color': '#000000',
+      '--swiper-pagination-color': '#000000',
     }"
     :speed="600"
     :parallax="true"
@@ -31,7 +31,7 @@
                 с 17:00 до 23:00 - 900р/2часа
             </p>
             <p class="time">
-                Общий пар - 13:30, 15:00, 16:30, 18:00, 19:30, 21:00
+                Общий пар - 12:30, 15:30, 18:30, 20:30
             </p>
         </div> 
       </swiper-slide>
@@ -45,7 +45,7 @@
                 с 14:00 до 16:00 - 700р/2часа
             </p>
             <p class="time">
-                Общий пар - 13:30, 15:00
+                Общий пар - 12:30, 14:30
             </p>
         </div> 
     </swiper-slide>
@@ -76,7 +76,7 @@
     },
   };
 </script>
-<style>
+<style scoped>
 .time-header{
     text-align: center;
     margin-top: 5px;

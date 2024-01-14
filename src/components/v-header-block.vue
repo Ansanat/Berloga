@@ -109,23 +109,23 @@ export default {
 
 <style>
 .swiper-pagination-bullet, .swiper-pagination-bullet-active {
-    background-color: #121820;
-    width: 13px;
-    height:13px;
+    background-color: black;
+    width: 15px;
+    height:15px;
 }
 .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
-    color: #121820;
+    color: black;
 }
 .swiper-button-next:hover{
-    color: white;
+    color: black;
     opacity:0.4;
 }
 
 .swiper-button-prev:after, .swiper-container-rtl .swiper-button-prev:after {
-    color: #121820;
+    color: black;
 }
 .swiper-button-prev:hover{
-    color: white;
+    color: black;
     opacity:0.4;
 }
 .v-header-block {
