@@ -25,6 +25,16 @@
       <FemaleTime class="MaleTime"/>
     </div>
   </div>
+  <!--  -->
+  <div class="alert">
+    <div class="alert-header">Внимание!</div>
+    <div class="alert-text">С 4 июня Банный комплекс работает в летнем режиме</div>
+    <div class="alert-text" style="font-size: 25px;"><b>Семейный номер работает круглосуточно!</b> </div>
+    <div class="alert-text"><b>Номер для бронирования:</b></div>
+    <div class="alert-text">+7 (913) 916-07-09 </div>
+    <div class="alert-text"><b>С 1.07 по 1.08 БК Берлога НЕ работает!</b></div>
+  </div>
+  <!--  -->
   <div class="text-container">
       <div class="zagolovok" id="UDS">Система лояльности</div>
   </div>
@@ -58,6 +68,29 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.alert {
+  box-sizing: border-box;
+  padding-right: 10px;
+  width: 100%;
+  padding-bottom: 20px;
+  border-top: 3px solid #121820;
+  border-bottom: 3px solid #121820;
+}
+
+.alert-header {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.alert-text {
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
 .UDS{
   width: 100%;
   margin-top: 20px;

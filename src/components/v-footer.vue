@@ -4,7 +4,7 @@
             <div class="cities">
                 <a href="#"><div class="city" style="background-color: #D2B48C;">Новосибирск</div></a>
                 <a href="https://xn--c1adicrgbtec3etdua.xn--p1ai/"><div class="city">Нерюнгри</div></a>
-                <div class="city">Краснообск</div>
+                <a href="https://берлогакраснообск.рф/"><div class="city">Краснообск</div></a>
             </div>
         </div>
         <div class="footer">

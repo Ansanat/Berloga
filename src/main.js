@@ -5,7 +5,7 @@ import MaleTime from '@/pages/male-time'
 import FemaleTime from '@/pages/female-time'
 import FamilyNumber from '@/pages/family-number'
 import Kitchen from '@/pages/kitchen-page'
-import AdditionalServices from '@/pages/additional-services'
+import Services from '@/pages/services-page'
 import Contacts from '@/pages/contacts-page'
 import Vacancies from '@/pages/vacancies-page'
 import Rules from '@/pages/rules-page'
@@ -54,8 +54,9 @@ const router = createRouter ({
             name: 'Kitchen'
         },
         {
-            path: '/additional-services',
-            component: AdditionalServices
+            path: '/services-page',
+            component: Services,
+            name: 'Services'
         },
         {
             path: '/contacts-page',

@@ -1,11 +1,26 @@
 <template>
   <div class="v-vacancies-page" id="vacancies-page">
-    <div class="vacant-card">
-      <div class="vacant-name">Пармастер</div>
-      <div class="vacant-text">
-        Опыт неважен<br>
+    <div class="v-service-card">
+      <img src="@/images/parmaster.jpg" class="service-img"/>
+      <div class="service-name">
+        Пармастер
+      </div>
+      <div class="service-description">
+        Опыт неважен <br>
         График сменный<br>
-        ЗП от 40.000 руб
+        ЗП от 40.000 руб<br>
+      </div>
+    </div>
+
+    <div class="v-service-card">
+      <img src="@/images/povar.jpg" class="service-img"/>
+      <div class="service-name">
+        Повар
+      </div>
+      <div class="service-description">
+        Опыт от одного года <br>
+        График сменный<br>
+        ЗП от 40.000 руб<br>
       </div>
     </div>
   </div>
@@ -21,49 +36,78 @@ export default {
 </script>
 
 <style>
-.vacant-card{
+.v-service-card{
+  color: black;
+  text-decoration: none;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 10px;
-  width: 300px;
-  display: inline-block;
-  height: 200px;
+  height: auto;
+  width: 430px;
   background-color: white;
-  cursor: pointer;
-  border-radius: 20px;
-  border: 2px solid black;
-  box-shadow: 10px 10px 15px gray;
+  box-shadow: 3px 3px 10px gray;
 }
 
-.vacant-card:hover{
-  box-shadow: 10px 10px 25px gray;
-}
-
-.vacant-name{
-  font-size: 30px;
+.service-name{
+  padding-top: 10px;
+  margin: auto;
   text-align: center;
-  margin-top: 5px;
+  font-size: 30px;
+  width: 310px;
+  font-weight: bold;
 }
 
-.vacant-text{
+.service-button{
+  font-size: 15px;
+  margin: auto;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.service-description{
   font-size: 20px;
-  margin-top: 30px;
-  text-align:center;
-  margin-bottom: 20px;
+  padding-top: 4px;
+  margin: auto;
+  text-align: center;
+  width: 420px;
+  height: 90px;
+}
+
+.v-service-card:hover{
+  box-shadow: 3px 3px 20px gray;
+}
+
+.service-img{
+  width: 100%;
+  aspect-ratio: 16 / 12;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 700px) {
-  .vacant-card{
-    width: 99%;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 0px gray;
+  .v-service-card{
+    text-align: center;
+    width: 85%;
+    height: auto;
+    padding-bottom: 10px;
   }
+  .service-description{
+    width: 290px;
+    height: auto;
+  }
+
 }
-
 @media screen and (min-width: 701px) and  (max-width: 1100px){
-
+  .v-service-card{
+    text-align: center;
+    width: 85%;
+    height: auto;
+    padding-bottom: 10px;
+  }
 }
 </style>
