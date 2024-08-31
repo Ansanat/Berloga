@@ -12,6 +12,13 @@
     :modules="modules"
     class="mySwiper"
   >
+    <div class="city-block">
+      <div class="city-button" @click="showModalWindow = !showModalWindow">Новосибирск</div>
+      <div v-if="showModalWindow">
+        <a href="https://берлогакраснообск.рф/"><div class="city-button">Краснообск</div></a>
+        <a href="https://xn--c1adicrgbtec3etdua.xn--p1ai/"><div class="city-button">Нерюнгри</div></a>
+      </div>
+    </div>
     <swiper-slide>
         <img class="block-background" src="@/images/head-block/block1.jpg"/>
         <div class="block-container anim">
@@ -96,7 +103,8 @@ export default {
     },
     data() {
         return {
-        ref: null
+        ref: null,
+        showModalWindow: false,
         };
     },
     methods: {
@@ -108,6 +116,41 @@ export default {
 </script>
 
 <style>
+
+.city-block {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    top: 10px;
+}
+
+.city-button {
+    margin-top: 5px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    background-color: rgb(222, 222, 222);
+    border-color: #121820;
+    border-style: solid;
+    height: 40px;
+    width: 160px;
+    font-size: 17px;
+    font-family: Helvetica;
+    color: #121820;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+.city-button:hover {
+    background-color: #D2B48C;
+}
+
 .swiper-pagination-bullet, .swiper-pagination-bullet-active {
     background-color: black;
     width: 15px;

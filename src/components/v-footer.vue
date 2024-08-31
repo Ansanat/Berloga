@@ -3,8 +3,8 @@
         <div class="cities-background">
             <div class="cities">
                 <a href="#"><div class="city" style="background-color: #D2B48C;">Новосибирск</div></a>
-                <a href="https://xn--c1adicrgbtec3etdua.xn--p1ai/"><div class="city">Нерюнгри</div></a>
                 <a href="https://берлогакраснообск.рф/"><div class="city">Краснообск</div></a>
+                <a href="https://xn--c1adicrgbtec3etdua.xn--p1ai/"><div class="city">Нерюнгри</div></a>
             </div>
         </div>
         <div class="footer">
@@ -42,7 +42,7 @@
     transform: translate(-50%, -50%); 
 }
 
-.city{
+.city {
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;
@@ -113,6 +113,8 @@
     }
     .city {
         margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 </style>
