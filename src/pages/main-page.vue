@@ -28,11 +28,9 @@
   <!--  -->
   <div class="alert">
     <div class="alert-header">Внимание!</div>
-    <div class="alert-text">С 4 июня Банный комплекс работает в летнем режиме</div>
     <div class="alert-text" style="font-size: 25px;"><b>Семейный номер работает круглосуточно!</b> </div>
     <div class="alert-text"><b>Номер для бронирования:</b></div>
     <div class="alert-text">+7 (913) 916-07-09 </div>
-    <div class="alert-text"><b>С 1.07 по 1.08 БК Берлога НЕ работает!</b></div>
   </div>
   <!--  -->
   <div class="text-container">

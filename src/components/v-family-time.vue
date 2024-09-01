@@ -22,10 +22,16 @@
         <div class="title time-header" data-swiper-parallax="-300">Понедельник</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-                с 9:00 до 18:00 - 1200р/час
+                с 9:00 до 18:00 - 1400р/час
             </p>
             <p class="time">
-                с 18:00 до 9:00 - 1600р/час
+                с 18:00 до 9:00 - 1800р/час
+            </p>
+            <p class="time">
+                Цена рассчитана на 10 человек,
+            </p>
+            <p class="time">
+                последующий 200р/ч с человека
             </p>
         </div> 
       </swiper-slide>
@@ -33,10 +39,16 @@
         <div class="title time-header" data-swiper-parallax="-300">Вторник</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-                с 9:00 до 18:00 - 1200р/час
+                с 9:00 до 18:00 - 1400р/час
             </p>
             <p class="time">
-                с 18:00 до 9:00 - 1600р/час
+                с 18:00 до 9:00 - 1800р/час
+            </p>
+            <p class="time">
+                Цена рассчитана на 10 человек,
+            </p>
+              <p class="time">
+                последующий 200р/ч с человека
             </p>
         </div> 
       </swiper-slide>
@@ -44,10 +56,16 @@
         <div class="title time-header" data-swiper-parallax="-300">Среда</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-                с 9:00 до 18:00 - 1200р/час
+                с 9:00 до 18:00 - 1400р/час
             </p>
             <p class="time">
-                с 18:00 до 9:00 - 1600р/час
+                с 18:00 до 9:00 - 1800р/час
+            </p>
+            <p class="time">
+                Цена рассчитана на 10 человек,
+            </p>
+              <p class="time">
+                последующий 200р/ч с человека
             </p>
         </div> 
       </swiper-slide>
@@ -55,10 +73,16 @@
         <div class="title time-header" data-swiper-parallax="-300">Четверг</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-                с 9:00 до 18:00 - 1200р/час
+                с 9:00 до 18:00 - 1400р/час
             </p>
             <p class="time">
-                с 18:00 до 9:00 - 1600р/час
+                с 18:00 до 9:00 - 1800р/час
+            </p>
+            <p class="time">
+                Цена рассчитана на 10 человек,
+            </p>
+              <p class="time">
+                последующий 200р/ч с человека
             </p>
         </div> 
       </swiper-slide>
@@ -66,10 +90,16 @@
         <div class="title time-header" data-swiper-parallax="-300">Пятница</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-                с 9:00 до 18:00 - 1600р/час
+                с 9:00 до 18:00 - 1800р/час
             </p>
             <p class="time">
-                с 18:00 до 9:00 - 2000р/час
+                с 18:00 до 9:00 - 2200р/час
+            </p>
+            <p class="time">
+                Цена рассчитана на 10 человек,
+            </p>
+              <p class="time">
+                последующий 200р/ч с человека
             </p>
         </div> 
       </swiper-slide>
@@ -77,7 +107,13 @@
         <div class="title time-header" data-swiper-parallax="-300">Суббота</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-               2000р/час
+               2500р/час
+            </p>
+            <p class="time">
+                Цена рассчитана на 10 человек,
+            </p>
+              <p class="time">
+                последующий 200р/ч с человека
             </p>
         </div> 
       </swiper-slide>
@@ -85,7 +121,13 @@
         <div class="title time-header" data-swiper-parallax="-300">Воскресенье</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-               2000р/час
+               2500р/час
+            </p>
+            <p class="time">
+                Цена рассчитана на 10 человек,
+            </p>
+              <p class="time">
+                последующий 200р/ч с человека
             </p>
         </div> 
       </swiper-slide>

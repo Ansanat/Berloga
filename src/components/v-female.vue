@@ -22,10 +22,13 @@
         <div class="title time-header" data-swiper-parallax="-300">Среда</div>
         <div class="text" data-swiper-parallax="-100">
             <p class="time">
-                с 17:00 до 22:00 - 900р/2часа
+                с 11:00 до 15:00 - 600р/2часа
             </p>
             <p class="time">
-                Общий пар - 18:30, 20:30
+                с 15:00 до 23:00 - 1000р/2часа
+            </p>
+            <p class="time">
+                Общий пар - 12:30, 14:30, 16:30, 18:30, 20:30
             </p>
         </div> 
       </swiper-slide>

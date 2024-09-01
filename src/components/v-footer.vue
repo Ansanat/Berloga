@@ -12,7 +12,7 @@
                 <div>г. Новосибирск, Трикотажный 5-й переулок 23</div>
                 <div style="text-align: center; margin-top: 5px;">292-07-09</div>
             </div></a>
-            <div class="copyright"> &#169; Берлога 2023 г.</div>
+            <div class="copyright"> &#169; Берлога 2024 г.</div>
         </div>
 </div>
 </template>
