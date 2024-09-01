@@ -1,6 +1,5 @@
 <template>
 <div class="v-services-page" id="services-page">
-  <img class="gallery" src="@/images/Services.jpg"/>
   <div v-for="item in headers" :key="item">
     <div class="service-header"> {{item.name}} </div>
     <div class="price-table">
@@ -29,40 +28,24 @@ export default {
           name: 'ВСЁ ДЛЯ БАНИ',
           data: [
             {
-              name: 'Веник дубовый',
-              price: '300 руб'
+              name: 'Веник дубовый ',
+              price: '400 руб'
             },
             {
-              name: 'Веник берёзовый',
-              price: '250 руб'
+              name: 'Веник березовый ',
+              price: '300 руб'
             },
             {
               name: 'Шапка фирменная',
               price: '800 руб'
             },
             {
-              name: 'Шапка банная	',
-              price: '400 руб'
-            },
-            {
-              name: 'Варежка',
-              price: '100 руб'
-            },
-            {
-              name: 'Бритвенный набор',
+              name: 'Бритвенный набор ',
               price: '50 руб'
             },
             {
-              name: 'Тапочки резиновые',
+              name: 'Тапочки резиновые ',
               price: '350 руб'
-            },
-            {
-              name: 'Тапочки одноразовые',
-              price: '70 руб'
-            },
-            {
-              name: 'Коврик многоразовый	',
-              price: '150 руб'
             },
             {
               name: 'Коврик одноразовый',
@@ -74,11 +57,19 @@ export default {
             },
             {
               name: 'Мочалка ',
-              price: '150 руб'
+              price: '350 руб'
+            },
+            {
+              name: 'Шампунь/гель для душа ',
+              price: '50 руб'
             },
             {
               name: 'Простынь в аренду',
-              price: '100 руб'
+              price: '120 руб'
+            },
+            {
+              name: 'Полотенце в аренду',
+              price: '120 руб'
             },
             {
               name: 'Настойка для пара',
@@ -90,7 +81,7 @@ export default {
             },
           ]
         },
-      ]
+       ]
     }
   }
 }

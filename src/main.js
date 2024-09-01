@@ -6,6 +6,7 @@ import FemaleTime from '@/pages/female-time'
 import FamilyNumber from '@/pages/family-number'
 import Kitchen from '@/pages/kitchen-page'
 import Services from '@/pages/services-page'
+import Dop from '@/pages/dop-page'
 import Contacts from '@/pages/contacts-page'
 import Vacancies from '@/pages/vacancies-page'
 import Rules from '@/pages/rules-page'
@@ -57,6 +58,11 @@ const router = createRouter ({
             path: '/services-page',
             component: Services,
             name: 'Services'
+        },
+        {
+            path: '/dop-page',
+            component: Dop,
+            name: 'Dop'
         },
         {
             path: '/contacts-page',

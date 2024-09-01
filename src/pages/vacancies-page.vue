@@ -8,7 +8,7 @@
       <div class="service-description">
         Опыт неважен <br>
         График сменный<br>
-        ЗП от 40.000 руб<br>
+        ЗП от 45.000 руб<br>
       </div>
     </div>
 
@@ -21,6 +21,17 @@
         Опыт от одного года <br>
         График сменный<br>
         ЗП от 40.000 руб<br>
+      </div>
+    </div>
+
+    <div class="v-service-card">
+      <img src="@/images/oficiant.jpg" class="service-img"/>
+      <div class="service-name">
+        Официант
+      </div>
+      <div class="service-description">
+        График сменный<br>
+        ЗП от 50.000 руб<br>
       </div>
     </div>
   </div>
