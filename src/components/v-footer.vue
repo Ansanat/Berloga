@@ -8,10 +8,18 @@
             </div>
         </div>
         <div class="footer">
-            <a href="https://go.2gis.com/u66wp"><div class="footer-adress">
-                <div>г. Новосибирск, Трикотажный 5-й переулок 23</div>
-                <div style="text-align: center; margin-top: 5px;">292-07-09</div>
-            </div></a>
+            <a href="https://go.2gis.com/u66wp" style="text-decoration: none; color: white;">
+                <div class="footer-adress">
+                    <div>г. Новосибирск, Трикотажный 5-й переулок 23</div>
+                    <div style="text-align: center; margin-top: 5px;">292-07-09</div>
+                    <div class="icon-block">
+                        <span><a href="https://t.me/ErchimBerloga"><img class="icon" src="@/images/telegram_logo.png" /></a></span>
+                        <span><a href="https://vk.com/berlogansk"><img class="icon" src="@/images/VK_logo.png" /></a></span>
+                        <span><a href="https://www.instagram.com/berlogansk/"><img class="icon" src="@/images/Inst_logo.png" /></a></span>
+                    </div>
+                </div>
+            </a>
+
             <div class="copyright"> &#169; Берлога 2024 г.</div>
         </div>
 </div>
@@ -31,6 +39,15 @@
     height: 200px;
     position: relative;
     background-image: url(@/images/nsk_fon.JPG);
+}
+
+.icon-block {
+    margin-top: 5px;
+}
+
+.icon {
+    width: 35px;
+    margin: 2px;
 }
 
 .cities {
@@ -69,7 +86,7 @@
 .footer {
     background-color: #121820;
     width: 100%;
-    height: 150px;
+    height: 160px;
     position: relative;
 }
 
@@ -83,6 +100,8 @@
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
+    text-decoration: none;
+    width: 90%;
 }
 
 .copyright{
@@ -102,6 +121,10 @@
 @media screen and (max-width: 700px) {
     .cities-background{
         height: 300px;
+    }
+
+    .footer {
+        height: 200px;
     }
     .cities {
         position: absolute;

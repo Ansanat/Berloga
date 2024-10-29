@@ -217,13 +217,13 @@ export default {
   .help{
       width: 90%;
   }
-  .MaleTime{
-    width:300px;
-    height: 230px;
-    background-color:#f5f8fc;
-    border-radius: 20px;
-    border: 1px solid #121820
-  }
+    .MaleTime{
+      width:300px;
+      height: 230px;
+      background-color:#f5f8fc;
+      border-radius: 20px;
+      border: 1px solid #121820
+    }
 
 }
 </style>
