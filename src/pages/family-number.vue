@@ -1,6 +1,7 @@
 <template>
 <div class="v-main-page">
-  <FamilyGallery id="family-page"/>
+  <div class="numbers-head" id="family-page"> Бронирование номеров производится по предоплате в размере 10% от суммы заказа. (Предоплата не возвращается)</div>
+  <FamilyGallery />
   <div class="text-container">
       <img src="@/images/banya/banyaLogo.png" width="100px"/>
       <div class="zagolovok" id="zagolovok">Семейный номер</div>
@@ -39,6 +40,17 @@ export default {
   font-size: 20px;
   margin-bottom: 5px;
   text-align: center;
+}
+.numbers-head {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  border-bottom: 5px solid #121820;
+  color: black;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  font-size: 22px;
 }
 .dop{
   margin-top: 0px;
