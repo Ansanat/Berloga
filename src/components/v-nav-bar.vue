@@ -5,7 +5,7 @@
             <router-link :to="{ name: 'Main', hash: '#maleTime'}" style="text-decoration: none;"><li class="menu-item">Мужское время</li></router-link>
             <router-link :to="{ name: 'Main', hash: '#femaleTime'}" style="text-decoration: none;"><li class="menu-item">Женское время</li></router-link>
             <router-link :to="{ name: 'Family', hash: '#family-page'}" style="text-decoration: none;"><li class="menu-item">Семейный номер</li></router-link>
-            <router-link :to="{ name: 'Kitchen', hash: '#kitchen-page'}" style="text-decoration: none;"><li class="menu-item">Кухня</li></router-link>
+            <router-link :to="{ name: 'Kitchen', hash: '#kitchen-page'}" style="text-decoration: none;"><li class="menu-item">Кухня/бар</li></router-link>
             <router-link :to="{ name: 'Services', hash: '#services-page'}" style="text-decoration: none;"><li class="menu-item">Аксессуары</li></router-link>
             <router-link :to="{ name: 'Dop', hash: '#dop-page'}" style="text-decoration: none;"><li class="menu-item">Доп. услуги</li></router-link>
             <router-link :to="{ name: 'Contacts', hash: '#contacts-page'}" style="text-decoration: none;"><li class="menu-item">Контакты</li></router-link>
