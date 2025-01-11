@@ -26,31 +26,6 @@
     </div>
   </div>
 
-  <div class="text-container">
-    <div class="zagolovok" id="common" style="font-weight: bold; padding-left: 2px; padding-right: 2px;">Прейскурант цен на посещение общего отделения с 28.12.2024 по 8.01.2025</div>
-  </div>
-
-    <!--  -->
-    <div class="alert" style="margin-top: 10px;">
-      <div class="alert-text"><b>График работы:</b></div>
-      <div class="alert-text">30 декабря с 11:00 до 23:00</div>
-      <div class="alert-text">31 декабря с 11:00 до 20:00</div>
-      <div class="alert-text">1 января не работаем</div>
-      <div class="alert-text">2 января с 16:00 до 23:00</div>
-    </div>
-    <!--  -->
-
-  <div class="cards">
-    <div class="male-time-card">
-      <div class="time-card-header" id="maleTime">Мужское время</div>
-      <MaleTimeNg class="MaleTime"/>
-    </div>
-    <div class="male-time-card">
-      <div class="time-card-header" id="femaleTime">Женское время</div>
-      <FemaleTimeNg class="MaleTime"/>
-    </div>
-  </div>
-
   <!--  -->
   <div class="alert">
     <div class="alert-header">Внимание!</div>
@@ -71,9 +46,7 @@
 
 <script>
 import MaleTime from '@/components/v-male.vue'
-import MaleTimeNg from '@/components/v-male-ng.vue'
 import FemaleTime from '@/components/v-female.vue'
-import FemaleTimeNg from '@/components/v-female-ng.vue'
 import Gallery from '@/components/v-gallery.vue'
 import CardGallery from '@/components/v-card-gallery'
 
@@ -84,8 +57,6 @@ export default {
     CardGallery,
     MaleTime,
     FemaleTime,
-    MaleTimeNg,
-    FemaleTimeNg
   }
 }
 </script>

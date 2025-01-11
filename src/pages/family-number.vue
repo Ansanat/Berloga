@@ -9,15 +9,6 @@
   <div class="help-background">
       <div class="help" style="padding-top: 20px;">Большой просторный номер в котором могут комфортно расположиться двенадцать человек. Номер площадью 150 м. кв. включает в себя большой зал отдыха который поделен на две зоны, в каждой зоне есть телевизор, одна зона предназначена для застолья, вторая зона отдыха. Моечное отделение с двумя душевыми, парная рассчитанная на 12 человек, контрастный бассейн размерами 3*3 метра.</div>
   </div>
-      <!--  -->
-      <div class="alert" style="margin-top: 10px;">
-        <div class="alert-text"><b>Цены на семейный номер в новогодние праздники:</b></div>
-        <div class="alert-text">С 23.12 по 26.12 - 2000 р/час</div>
-        <div class="alert-text">С 27.12 по 29.12 - 2500 р/час</div>
-        <div class="alert-text">С 30.12 по 8.01 - 3000 р/час</div>
-        <div class="alert-text"><b>Акции не действуют</b></div>
-      </div>
-      <!--  -->
   <div class="cards" style="margin-bottom: 20px;">
     <div class="male-time-card">
       <MaleTime class="MaleTime"/>
