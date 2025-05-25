@@ -29,6 +29,28 @@
   <!--  -->
   <div class="alert">
     <div class="alert-header">Внимание!</div>
+    <div class="alert-text" style="font-size: 25px;"><b>Прейскурант цен на посещение общего отделения БК "Берлога"</b> </div>
+    <div class="alert-text" style="font-size: 25px;"><b>с 3.06.2025 - 1.09.2025</b> </div>
+    <br>
+    <div class="alert-text" style="font-size: 25px;"><b>Мужское время</b></div>
+    <div class="alert-text"><b>ВТОРНИК:</b></div>
+    <div class="alert-text">с 17:00-22:00 - 1000р/2 часа </div>
+    <div class="alert-text"><b>ЧЕТВЕРГ, ПЯТНИЦА:</b></div>
+    <div class="alert-text">с 17:00-22:00 - 1300р/2 часа </div>
+    <div class="alert-text"><b>Общий пар (18:00, 19:30, 20:30)</b></div>
+    <div class="alert-text"><b>СУББОТА, ВОСКРЕСЕНЬЕ:</b></div>
+    <div class="alert-text">с 11:00-15:00 - 1300р/2 часа </div>
+    <div class="alert-text">с 15:00-22:00 - 1500р/2 часа </div>
+    <div class="alert-text"><b>Общий пар (12:30, 14:30, 16:30, 18:30, 20:30)</b></div>
+    <br>
+    <div class="alert-text" style="font-size: 25px;"><b>Женское время</b></div>
+    <div class="alert-text"><b>СРЕДА:</b></div>
+    <div class="alert-text">с 17:00-22:00 - 1000р/2 часа </div>
+    <div class="alert-text"><b>Общий пар (18:00, 19:30, 20:30)</b></div>
+    <br>
+    <div class="alert-text" style="font-size: 25px;"><b>С 30.06.2025 - 29.07.2025</b> </div>
+    <div class="alert-text" style="font-size: 25px;"><b><u>БК "Берлога" не работает</u></b> </div>
+    <br>
     <div class="alert-text" style="font-size: 25px;"><b>Семейный номер работает круглосуточно!</b> </div>
     <div class="alert-text"><b>Номер для бронирования:</b></div>
     <div class="alert-text">+7 (913) 916-07-09 </div>
