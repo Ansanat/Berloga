@@ -15,6 +15,19 @@
   <div class="help-background">
       <div class="help" style="padding-top: 20px;">Общее отделение банного комплекса Берлога рассчитано на одновременное посещение пятидесяти человек. Каждому клиенту предоставляется отдельный шкафчик с электронным замком, номер на шкафчике соответствует посадочному месту. В моечном отделении находится бассейн размерами 3*6 метра температура воды 28 градусов. Русская парная рассчитанная на 20 человек. Турецкий хамам в котором могут комфортно расположиться 10 человек. Для любителей экстрима есть купель с температурой воды 12 градусов. Для клиентов бани работает кухня.</div>
   </div>
+    <!--  -->
+    <div class="alert">
+      <div class="alert-header">Внимание!</div>
+      <div class="alert-text" style="font-size: 25px;"><b>С 30.06.2025 - 29.07.2025</b> </div>
+      <div class="alert-text" style="font-size: 25px;"><b><u>БК "Берлога" не работает</u></b> </div>
+      <br>
+      <!-- <div class="alert-text" style="font-size: 25px;"><b>Семейный номер работает круглосуточно!</b> </div>
+      <div class="alert-text"><b>Номер для бронирования:</b></div>
+      <div class="alert-text">+7 (913) 916-07-09 </div> -->
+      <div class="alert-text" style="font-size: 25px;"><b>Прейскурант цен на посещение общего отделения БК "Берлога"</b> </div>
+      <div class="alert-text" style="font-size: 25px;"><b>с 3.06.2025 - 1.09.2025</b> </div>
+    </div>
+    <!--  -->
   <div class="cards">
     <div class="male-time-card">
       <div class="time-card-header" id="maleTime">Мужское время</div>
@@ -26,36 +39,6 @@
     </div>
   </div>
 
-  <!--  -->
-  <div class="alert">
-    <div class="alert-header">Внимание!</div>
-    <div class="alert-text" style="font-size: 25px;"><b>Прейскурант цен на посещение общего отделения БК "Берлога"</b> </div>
-    <div class="alert-text" style="font-size: 25px;"><b>с 3.06.2025 - 1.09.2025</b> </div>
-    <br>
-    <div class="alert-text" style="font-size: 25px;"><b>Мужское время</b></div>
-    <div class="alert-text"><b>ВТОРНИК:</b></div>
-    <div class="alert-text">с 17:00-22:00 - 1000р/2 часа </div>
-    <div class="alert-text"><b>ЧЕТВЕРГ, ПЯТНИЦА:</b></div>
-    <div class="alert-text">с 17:00-22:00 - 1300р/2 часа </div>
-    <div class="alert-text"><b>Общий пар (18:00, 19:30, 20:30)</b></div>
-    <div class="alert-text"><b>СУББОТА, ВОСКРЕСЕНЬЕ:</b></div>
-    <div class="alert-text">с 11:00-15:00 - 1300р/2 часа </div>
-    <div class="alert-text">с 15:00-22:00 - 1500р/2 часа </div>
-    <div class="alert-text"><b>Общий пар (12:30, 14:30, 16:30, 18:30, 20:30)</b></div>
-    <br>
-    <div class="alert-text" style="font-size: 25px;"><b>Женское время</b></div>
-    <div class="alert-text"><b>СРЕДА:</b></div>
-    <div class="alert-text">с 17:00-22:00 - 1000р/2 часа </div>
-    <div class="alert-text"><b>Общий пар (18:00, 19:30, 20:30)</b></div>
-    <br>
-    <div class="alert-text" style="font-size: 25px;"><b>С 30.06.2025 - 29.07.2025</b> </div>
-    <div class="alert-text" style="font-size: 25px;"><b><u>БК "Берлога" не работает</u></b> </div>
-    <br>
-    <div class="alert-text" style="font-size: 25px;"><b>Семейный номер работает круглосуточно!</b> </div>
-    <div class="alert-text"><b>Номер для бронирования:</b></div>
-    <div class="alert-text">+7 (913) 916-07-09 </div>
-  </div>
-  <!--  -->
   <div class="text-container">
       <div class="zagolovok" id="UDS">Система лояльности</div>
   </div>
