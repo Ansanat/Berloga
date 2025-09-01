@@ -7,8 +7,12 @@
       <div v-for="price in item.data" :key="price">
         <div class="price-line" v-if="price.line != false"></div> 
         <div class="price-row">
-          <div class="price-name">{{price.name}}</div>
+          <div class="price-name">{{price.name}}
+            <div class="price-name-desc"> {{price.desc1}} </div>
+            <div class="price-name-desc"> {{price.desc2}} </div>
+          </div>
           <div class="price-price">{{price.price}}</div>
+
         </div>
       </div>
     </div>
@@ -26,23 +30,31 @@ export default {
     return {
       headers: [
         {
-          name: 'Индивидуальное парение',
+          name: 'Индивидуальное парение от наших пармастеров',
           data: [
             {
-              name: 'Экспресс',
-              price: '700 руб',
+              name: 'Медвежонок',
+              price: '900 руб',
+              desc1: '(8-10 мин)',
+              desc2: 'Используется сенный матрас'
             },
             {
-              name: 'Классическое ',
-              price: '900 руб'
+              name: 'Медведь',
+              price: '1 400 руб',
+              desc1: '(10-12 мин)',
+              desc2: 'Используется сенный матрас'
             },
             {
-              name: 'Контрастное ',
-              price: '1 300 руб'
+              name: 'Гризли',
+              price: '1 800 руб',
+              desc1: '(20 мин с выходом на контраст)',
+              desc2: 'Используется сенный матрас, пихтовые лапы, лед'
             },
             {
-              name: 'Дополнительное коллективное парение (1 заход)',
-              price: '1 500 руб'
+              name: 'Фирменное "Берлога"',
+              price: '2 200 руб',
+              desc1: '(35 мин с выходом на контраст + растяжка связок тела после парения)',
+              desc2: 'Используется сенный матрас, пихтовые лапы, лед'
             },
           ]
         },
@@ -293,5 +305,11 @@ export default {
   border: 5px solid #121820;
   box-sizing: border-box;
 }
+.price-name-desc {
+  width: 80%;
+  color: white;
+  opacity: 0.8;
+  font-size: 14px;
+  margin-top: 4px;
+}
 </style>
-
