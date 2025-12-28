@@ -28,6 +28,26 @@
       <div class="alert-text" style="font-size: 25px;"><b>с 3.06.2025 - 1.09.2025</b> </div>
     </div> -->
     <!--  -->
+    <div class="alert">
+      <div class="alert-header" style="font-size: 28px; margin-bottom: 15px;"><b>29.12.2025-13.01.2026</b></div>
+      
+      <div class="alert-section">
+        <div class="alert-text" style="font-size: 22px; font-weight: bold; margin-bottom: 10px;">МУЖСКОЕ ВРЕМЯ</div>
+        <div class="alert-text"><b>29.12.2025:</b> 17:00-23:00 - 1200 руб./2 ч.</div>
+        <div class="alert-text"><b>30.12.2025:</b> 11:00-15:00 - 700 руб./2ч.; 15:00-23:00 - 1200 руб./2 ч.</div>
+        <div class="alert-text"><b>31.12.2025:</b> С 11:00-20:00 - 1800 руб./2 ч.</div>
+        <div class="alert-text"><b>1.01.2026:</b> НЕ РАБОТАЕМ</div>
+        <div class="alert-text"><b>2.01.2026:</b> 16:00-23:00 - 1800 руб./2 ч.</div>
+        <div class="alert-text"><b>3.01-11.01.2026:</b> 11:00-23:00 - 1800 руб./2 ч.</div>
+      </div>
+
+      <div class="alert-section" style="margin-top: 20px;">
+        <div class="alert-text" style="font-size: 22px; font-weight: bold; margin-bottom: 10px;">ЖЕНСКОЕ ВРЕМЯ</div>
+        <div class="alert-text"><b>7.01.2026:</b> 11:00-23:00 - 1500 руб./2 ч.</div>
+      </div>
+
+      <div class="alert-text" style="font-size: 20px; margin-top: 20px; font-weight: bold;">с 13.01.2026 работаем в обычном режиме</div>
+    </div>
   <div class="cards">
     <div class="male-time-card">
       <div class="time-card-header" id="maleTime">Мужское время</div>
@@ -93,6 +113,10 @@ export default {
   text-align: center;
   font-size: 20px;
   margin-top: 10px;
+}
+
+.alert-section {
+  margin-top: 15px;
 }
 
 .UDS{
