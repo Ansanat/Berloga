@@ -66,6 +66,9 @@
     <img src="@/images/UDS1.jpg" class="UDS-image"/>
     <img src="@/images/UDS2.jpg" class="UDS-image"/>
   </div>
+  <div class="uds-button-container">
+    <a href="https://berlogansk.uds.app/c/join?ref=qfah2532" target="_blank" class="uds-button">Подключиться к UDS</a>
+  </div>
 </div>
 </template>
 
@@ -126,6 +129,26 @@ export default {
 .UDS-image{
   display: inline-block;
   width: 50%;
+}
+.uds-button-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.uds-button {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #8b6fb8;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.uds-button:hover {
+  background-color: #7a5fa3;
 }
 .cards{
   width: 100%;
@@ -215,6 +238,10 @@ export default {
         margin-left: 2px;
         font-size: 30px;
     }
+  .uds-button {
+    padding: 12px 30px;
+    font-size: 18px;
+  }
     .cursiv-text{
         display: none;
     }
