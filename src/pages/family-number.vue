@@ -9,6 +9,7 @@
   <div class="help-background">
       <div class="help" style="padding-top: 20px;">Большой просторный номер в котором могут комфортно расположиться двенадцать человек. Номер площадью 150 м. кв. включает в себя большой зал отдыха который поделен на две зоны, в каждой зоне есть телевизор, одна зона предназначена для застолья, вторая зона отдыха. Моечное отделение с двумя душевыми, парная рассчитанная на 12 человек, контрастный бассейн размерами 3*3 метра.</div>
   </div>
+  <!-- NEW YEAR PRICES/SCHEDULE (commented out)
   <div class="alert">
     <div class="alert-header" style="font-size: 28px; margin-bottom: 10px;">
       <b>Прейскурант цен</b>
@@ -36,6 +37,7 @@
       </div>
     </div>
   </div>
+  -->
   <div class="cards" style="margin-bottom: 20px;">
     <div class="male-time-card">
       <MaleTime class="MaleTime"/>

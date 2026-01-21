@@ -28,6 +28,7 @@
       <div class="alert-text" style="font-size: 25px;"><b>с 3.06.2025 - 1.09.2025</b> </div>
     </div> -->
     <!--  -->
+    <!-- NEW YEAR SCHEDULE (commented out)
     <div class="alert">
       <div class="alert-header" style="font-size: 28px; margin-bottom: 15px;"><b>29.12.2025-13.01.2026</b></div>
       
@@ -48,6 +49,7 @@
 
       <div class="alert-text" style="font-size: 20px; margin-top: 20px; font-weight: bold;">с 13.01.2026 работаем в обычном режиме</div>
     </div>
+    -->
   <div class="cards">
     <div class="male-time-card">
       <div class="time-card-header" id="maleTime">Мужское время</div>

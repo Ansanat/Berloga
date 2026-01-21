@@ -1,6 +1,6 @@
 <template>
 <div class="v-kitchen-page" id="kitchen-page">
-  <img class="gallery" src="@/images/menu.jpg"/>
+  <img class="gallery" src="@/images/Menu.jpg"/>
   <div v-for="item in headers" :key="item">
     <div class="service-header"> {{item.name}} </div>
     <div class="price-table">
